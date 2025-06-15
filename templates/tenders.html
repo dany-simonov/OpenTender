@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}Закупки | OpenTender{% endblock %}
+
+{% block content %}
+<div class="bg-white">
+    <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h1 class="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Закупки</h1>
+            <p class="mt-5 max-w-xl mx-auto text-xl text-gray-500">Найдите подходящие закупки для вашего бизнеса</p>
+        </div>
+    </div>
+</div>
+
+<div class="bg-gray-50">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {% for tender in tenders %}
+            <div class="bg-white overflow-hidden shadow rounded-lg">
+                <div class="px-4 py-5 sm:p-6">
+                    <h3 class="text-lg font-medium text-gray-900">{{ tender.title }}</h3>
+                    <p class="mt-2 text-sm text-gray-500">{{ tender.description }}</p>
+                    <div class="mt-4">
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                            {{ tender.status }}
+                        </span>
+                    </div>
+                    <div class="mt-4">
+                        <a href="{{ url_for('tender_detail', tender_id=tender.id) }}" class="text-indigo-600 hover:text-indigo-900">
+                            Подробнее →
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="bg-white">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div class="text-center">
+            <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                <span class="block">Не нашли подходящую закупку?</span>
+                <span class="block text-indigo-600">Зарегистрируйтесь, чтобы получать уведомления о новых закупках.</span>
+            </h2>
+            <div class="mt-8 flex justify-center">
+                <div class="inline-flex rounded-md shadow">
+                    <a href="{{ url_for('register') }}" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+                        Зарегистрироваться
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

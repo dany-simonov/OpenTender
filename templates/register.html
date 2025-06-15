@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block title %}Регистрация | OpenTender{% endblock %}
+
+{% block content %}
+<div class="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-md w-full space-y-8 bg-white p-8 rounded-lg shadow-lg">
+        <div>
+            <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
+                Регистрация
+            </h2>
+            <p class="mt-2 text-center text-sm text-gray-600">
+                Или
+                <a href="{{ url_for('login') }}" class="font-medium text-indigo-600 hover:text-indigo-500">
+                    войдите, если у вас уже есть аккаунт
+                </a>
+            </p>
+        </div>
+        <form class="mt-8 space-y-6" id="registerForm">
+            <div class="rounded-md shadow-sm -space-y-px">
+                <div>
+                    <label for="last_name" class="sr-only">Фамилия</label>
+                    <input id="last_name" name="last_name" type="text" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Фамилия">
+                </div>
+                <div>
+                    <label for="first_name" class="sr-only">Имя</label>
+                    <input id="first_name" name="first_name" type="text" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Имя">
+                </div>
+                <div>
+                    <label for="middle_name" class="sr-only">Отчество</label>
+                    <input id="middle_name" name="middle_name" type="text" class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Отчество">
+                </div>
+                <div>
+                    <label for="email" class="sr-only">Email</label>
+                    <input id="email" name="email" type="email" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Email">
+                </div>
+                <div>
+                    <label for="phone" class="sr-only">Телефон</label>
+                    <input id="phone" name="phone" type="tel" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Телефон">
+                </div>
+                <div>
+                    <label for="company_name" class="sr-only">Название компании</label>
+                    <input id="company_name" name="company_name" type="text" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Название компании">
+                </div>
+                <div>
+                    <label for="password" class="sr-only">Пароль</label>
+                    <input id="password" name="password" type="password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Пароль">
+                </div>
+                <div>
+                    <label for="password_confirm" class="sr-only">Подтверждение пароля</label>
+                    <input id="password_confirm" name="password_confirm" type="password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Подтверждение пароля">
+                </div>
+            </div>
+
+            <div class="flex items-center">
+                <input id="terms" name="terms" type="checkbox" required class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                <label for="terms" class="ml-2 block text-sm text-gray-900">
+                    Я согласен с
+                    <a href="{{ url_for('terms') }}" class="font-medium text-indigo-600 hover:text-indigo-500">условиями использования</a>
+                    и
+                    <a href="{{ url_for('privacy') }}" class="font-medium text-indigo-600 hover:text-indigo-500">политикой конфиденциальности</a>
+                </label>
+            </div>
+
+            <div>
+                <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                    <span class="absolute left-0 inset-y-0 flex items-center pl-3">
+                        <svg class="h-5 w-5 text-indigo-500 group-hover:text-indigo-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
+                        </svg>
+                    </span>
+                    Зарегистрироваться
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+document.getElementById('registerForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const password = document.getElementById('password').value;
+    const passwordConfirm = document.getElementById('password_confirm').value;
+    
+    if (password !== passwordConfirm) {
+        alert('Пароли не совпадают');
+        return;
+    }
+    
+    const formData = {
+        email: document.getElementById('email').value,
+        password: password,
+        first_name: document.getElementById('first_name').value,
+        last_name: document.getElementById('last_name').value,
+        middle_name: document.getElementById('middle_name').value,
+        phone: document.getElementById('phone').value,
+        company_name: document.getElementById('company_name').value
+    };
+    
+    try {
+        const response = await fetch('/api/register', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            localStorage.setItem('token', data.access_token);
+            window.location.href = '/tenders';
+        } else {
+            alert(data.error || 'Ошибка при регистрации');
+        }
+    } catch (error) {
+        alert('Ошибка при регистрации');
+    }
+});
+</script>
+{% endblock %} 

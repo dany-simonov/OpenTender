@@ -1,0 +1,13 @@
+{
+  "name": "opentender",
+  "version": "1.0.0",
+  "description": "Система анализа государственных закупок",
+  "scripts": {
+    "build:css": "tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35"
+  }
+} 
