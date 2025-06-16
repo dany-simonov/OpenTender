@@ -1,8 +1,9 @@
 import unittest
 from app import app, db
 from models import User, Tender
-from flask_login import current_user
+from flask_login import current_user, login_user
 import json
+from unittest.mock import patch, MagicMock
 
 class TestApp(unittest.TestCase):
     def setUp(self):
@@ -177,6 +178,144 @@ class TestApp(unittest.TestCase):
                                   content_type='application/json')
         self.assertEqual(response.status_code, 400)
         self.assertIn(b'User with this email already exists', response.data)
+
+class TestOAuth(unittest.TestCase):
+    def setUp(self):
+        app.config['TESTING'] = True
+        app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///:memory:'
+        app.config['WTF_CSRF_ENABLED'] = False
+        self.client = app.test_client()
+        
+        with app.app_context():
+            db.create_all()
+            
+            # Создаем тестового пользователя
+            user = User(
+                email='test@example.com',
+                password_hash='test_hash',
+                first_name='Test',
+                last_name='User',
+                phone='+79001234567',
+                company_name='Test Company'
+            )
+            db.session.add(user)
+            db.session.commit()
+
+    def tearDown(self):
+        with app.app_context():
+            db.session.remove()
+            db.drop_all()
+
+    def test_oauth_providers_list(self):
+        """Тест доступности списка OAuth провайдеров"""
+        response = self.client.get('/oauth/vk')
+        self.assertEqual(response.status_code, 302)
+        self.assertTrue('oauth.vk.com' in response.location)
+
+        response = self.client.get('/oauth/yandex')
+        self.assertEqual(response.status_code, 302)
+        self.assertTrue('oauth.yandex.ru' in response.location)
+
+        response = self.client.get('/oauth/google')
+        self.assertEqual(response.status_code, 302)
+        self.assertTrue('accounts.google.com' in response.location)
+
+    @patch('requests.get')
+    @patch('requests.post')
+    def test_vk_oauth_callback(self, mock_post, mock_get):
+        """Тест callback для VK OAuth"""
+        # Мокаем ответы от VK API
+        mock_post.return_value.json.return_value = {
+            'access_token': 'test_token',
+            'email': 'test@vk.com'
+        }
+        mock_get.return_value.json.return_value = {
+            'response': [{
+                'id': 12345,
+                'first_name': 'VK',
+                'last_name': 'User'
+            }]
+        }
+
+        response = self.client.get('/oauth/vk/callback?code=test_code')
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.location, '/')
+
+        # Проверяем, что пользователь создан
+        with app.app_context():
+            user = User.query.filter_by(social_id='12345').first()
+            self.assertIsNotNone(user)
+            self.assertEqual(user.email, 'test@vk.com')
+            self.assertEqual(user.first_name, 'VK')
+            self.assertEqual(user.last_name, 'User')
+
+    @patch('requests.get')
+    @patch('requests.post')
+    def test_yandex_oauth_callback(self, mock_post, mock_get):
+        """Тест callback для Yandex OAuth"""
+        # Мокаем ответы от Yandex API
+        mock_post.return_value.json.return_value = {
+            'access_token': 'test_token'
+        }
+        mock_get.return_value.json.return_value = {
+            'id': '12345',
+            'default_email': 'test@yandex.ru',
+            'first_name': 'Yandex',
+            'last_name': 'User'
+        }
+
+        response = self.client.get('/oauth/yandex/callback?code=test_code')
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.location, '/')
+
+        # Проверяем, что пользователь создан
+        with app.app_context():
+            user = User.query.filter_by(social_id='12345').first()
+            self.assertIsNotNone(user)
+            self.assertEqual(user.email, 'test@yandex.ru')
+            self.assertEqual(user.first_name, 'Yandex')
+            self.assertEqual(user.last_name, 'User')
+
+    @patch('requests.get')
+    @patch('requests.post')
+    def test_google_oauth_callback(self, mock_post, mock_get):
+        """Тест callback для Google OAuth"""
+        # Мокаем ответы от Google API
+        mock_post.return_value.json.return_value = {
+            'access_token': 'test_token'
+        }
+        mock_get.return_value.json.return_value = {
+            'id': '12345',
+            'email': 'test@gmail.com',
+            'given_name': 'Google',
+            'family_name': 'User'
+        }
+
+        response = self.client.get('/oauth/google/callback?code=test_code')
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.location, '/')
+
+        # Проверяем, что пользователь создан
+        with app.app_context():
+            user = User.query.filter_by(social_id='12345').first()
+            self.assertIsNotNone(user)
+            self.assertEqual(user.email, 'test@gmail.com')
+            self.assertEqual(user.first_name, 'Google')
+            self.assertEqual(user.last_name, 'User')
+
+    def test_invalid_oauth_provider(self):
+        """Тест обработки неверного OAuth провайдера"""
+        response = self.client.get('/oauth/invalid')
+        self.assertEqual(response.status_code, 400)
+        data = json.loads(response.data)
+        self.assertEqual(data['error'], 'Неподдерживаемый провайдер')
+
+    def test_oauth_callback_without_code(self):
+        """Тест callback без кода авторизации"""
+        response = self.client.get('/oauth/vk/callback')
+        self.assertEqual(response.status_code, 400)
+        data = json.loads(response.data)
+        self.assertEqual(data['error'], 'Код авторизации отсутствует')
 
 if __name__ == '__main__':
     unittest.main() 

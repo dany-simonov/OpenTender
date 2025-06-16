@@ -1,0 +1,674 @@
+[
+  {
+    "provider": "ARTA",
+    "status": "error",
+    "response": null,
+    "error": "Model gpt-3.5-turbo not found"
+  },
+  {
+    "provider": "Anthropic",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "AnyProvider",
+    "status": "success",
+    "response": "Привет! У меня все отлично, спасибо. Как я могу помочь вам сегодня?",
+    "error": null
+  },
+  {
+    "provider": "AsyncGeneratorProvider",
+    "status": "error",
+    "response": null,
+    "error": "AsyncGeneratorProvider is not working"
+  },
+  {
+    "provider": "AsyncProvider",
+    "status": "error",
+    "response": null,
+    "error": "AsyncProvider is not working"
+  },
+  {
+    "provider": "AsyncResult",
+    "status": "error",
+    "response": null,
+    "error": "type object 'AsyncIterator' has no attribute 'working'"
+  },
+  {
+    "provider": "BackendApi",
+    "status": "error",
+    "response": null,
+    "error": "BackendApi is not working"
+  },
+  {
+    "provider": "BaseProvider",
+    "status": "error",
+    "response": null,
+    "error": "BaseProvider is not working"
+  },
+  {
+    "provider": "BingCreateImages",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"_U\" cookie"
+  },
+  {
+    "provider": "BlackForestLabs_Flux1Dev",
+    "status": "success",
+    "response": "Falling back to IP-based quotas (InvalidRepoToken)\nFinished\n[![Привет, как дела?](https://black-forest-labs-flux-1-dev.hf.space/gradio_api/file=/tmp/gradio/320dfbcfe5b74f235ba82b3a69ccfa1080b7f18e46ef659e57f7ca36addf9308/image.webp)](https://black-forest-labs-flux-1-dev.hf.space/gradio_api/file=/tmp/gradio/320dfbcfe5b74f235ba82b3a69ccfa1080b7f18e46ef659e57f7ca36addf9308/image.webp)",
+    "error": null
+  },
+  {
+    "provider": "Blackbox",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: Blackbox Valid models: ['blackboxai', 'gpt-4.1-mini', 'gpt-4.1-nano', 'gpt-4', 'gpt-4o', 'gpt-4o-mini', 'Python Agent', 'HTML Agent', 'Builder Agent', 'Java Agent', 'JavaScript Agent', 'React Agent', 'Android Agent', 'Flutter Agent', 'Next.js Agent', 'AngularJS Agent', 'Swift Agent', 'MongoDB Agent', 'PyTorch Agent', 'Xcode Agent', 'Azure Agent', 'Bitbucket Agent', 'DigitalOcean Agent', 'Docker Agent', 'Electron Agent', 'Erlang Agent', 'FastAPI Agent', 'Firebase Agent', 'Flask Agent', 'Git Agent', 'Gitlab Agent', 'Go Agent', 'Godot Agent', 'Google Cloud Agent', 'Heroku Agent']"
+  },
+  {
+    "provider": "BlackboxPro",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: BlackboxPro Valid models: ['blackboxai', 'gpt-4o-mini', 'DeepSeek-V3', 'DeepSeek-R1', 'Meta-Llama-3.3-70B-Instruct-Turbo', 'Mistral-Small-24B-Instruct-2501', 'DeepSeek-LLM-Chat-(67B)', 'Qwen-QwQ-32B-Preview', 'Deepcoder 14B Preview', 'DeepHermes 3 Llama 3 8B Preview', 'DeepSeek R1 Zero', 'DeepSeek V3', 'DeepSeek V3 0324', 'DeepSeek V3 Base', 'Dolphin3.0 Mistral 24B', 'Dolphin3.0 R1 Mistral 24B', 'Flash 3', 'Gemini 2.0 Flash Experimental', 'Gemini 2.0 Flash Thinking Experimental', 'Gemini 2.0 Flash Thinking Experimental 01-21', 'Gemma 2 9B', 'Gemma 3 12B', 'Gemma 3 1B', 'Gemma 3 27B', 'Gemma 3 4B', 'Kimi VL A3B Thinking', 'LearnLM 1.5 Pro Experimental', 'Llama 3.1 8B Instruct', 'Llama 3.1 Nemotron 70B Instruct', 'Llama 3.1 Nemotron Nano 8B v1', 'Llama 3.1 Nemotron Ultra 253B v1', 'Llama 3.2 11B Vision Instruct', 'Llama 3.2 1B Instruct', 'Llama 3.2 3B Instruct', 'Llama 3.3 70B Instruct', 'Llama 3.3 Nemotron Super 49B v1', 'Llama 4 Maverick', 'Llama 4 Scout', 'Mistral 7B Instruct', 'Mistral Nemo', 'Mistral Small 3', 'Mistral Small 3.1 24B', 'Molmo 7B D', 'Moonlight 16B A3B Instruct', 'OlympicCoder 32B', 'OlympicCoder 7B', 'Qwen2.5 72B Instruct', 'Qwen2.5 7B Instruct', 'Qwen2.5 Coder 32B Instruct', 'Qwen2.5 VL 32B Instruct', 'Qwen2.5 VL 3B Instruct', 'Qwen2.5 VL 72B Instruct', 'Qwen2.5-VL 7B Instruct', 'Qwerky 72B', 'QwQ 32B', 'QwQ 32B Preview', 'QwQ 32B RpR v1', 'R1', 'R1 Distill Llama 70B', 'R1 Distill Qwen 14B', 'R1 Distill Qwen 32B', 'Rogue Rose 103B v0.2', 'UI-TARS 72B', 'Zephyr 7B', 'flux', 'Python Agent', 'HTML Agent', 'Builder Agent', 'Java Agent', 'JavaScript Agent', 'React Agent', 'Android Agent', 'Flutter Agent', 'Next.js Agent', 'AngularJS Agent', 'Swift Agent', 'MongoDB Agent', 'PyTorch Agent', 'Xcode Agent', 'Azure Agent', 'Bitbucket Agent', 'DigitalOcean Agent', 'Docker Agent', 'Electron Agent', 'Erlang Agent', 'FastAPI Agent', 'Firebase Agent', 'Flask Agent', 'Git Agent', 'Gitlab Agent', 'Go Agent', 'Godot Agent', 'Google Cloud Agent', 'Heroku Agent']"
+  },
+  {
+    "provider": "CablyAI",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "Cerebras",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "Chatai",
+    "status": "success",
+    "response": "Привет! У меня всё хорошо, спасибо. Как могу помочь тебе сегодня?",
+    "error": null
+  },
+  {
+    "provider": "Cloudflare",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "status": "error",
+    "response": null,
+    "error": "Model gpt-3.5-turbo not found"
+  },
+  {
+    "provider": "Copilot",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: Copilot Valid models: ['Copilot', 'Think Deeper']"
+  },
+  {
+    "provider": "CopilotAccount",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: CopilotAccount Valid models: ['Copilot', 'Think Deeper']"
+  },
+  {
+    "provider": "CreateImagesProvider",
+    "status": "error",
+    "response": null,
+    "error": "CreateImagesProvider is not working"
+  },
+  {
+    "provider": "Custom",
+    "status": "error",
+    "response": null,
+    "error": "Response 404: HTML content"
+  },
+  {
+    "provider": "DeepInfra",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "DeepInfraChat",
+    "status": "error",
+    "response": null,
+    "error": "Model gpt-3.5-turbo not found"
+  },
+  {
+    "provider": "DeepSeek",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "DeepSeekAPI",
+    "status": "error",
+    "response": null,
+    "error": "DeepSeekAPI is not working"
+  },
+  {
+    "provider": "DeepseekAI_JanusPro7b",
+    "status": "error",
+    "response": null,
+    "error": "Missing images input"
+  },
+  {
+    "provider": "DuckDuckGo",
+    "status": "error",
+    "response": null,
+    "error": "DuckDuckGo is not working"
+  },
+  {
+    "provider": "EdgeTTS",
+    "status": "error",
+    "response": null,
+    "error": "EdgeTTS is not working"
+  },
+  {
+    "provider": "Feature",
+    "status": "error",
+    "response": null,
+    "error": "Feature is not working"
+  },
+  {
+    "provider": "Free2GPT",
+    "status": "success",
+    "response": "У меня всё отлично, спасибо, что спросили! Я готов помогать вам с любыми вопросами или задачами. А у вас как дела? Что планируете делать сегодня?\n",
+    "error": null
+  },
+  {
+    "provider": "FreeGpt",
+    "status": "error",
+    "response": null,
+    "error": "Response 429: {\"error\":{\"message\":\"当前分组上游负载已饱和，请稍后再试 (request id: 2025061519271857284419608uwaQu1)\",\"type\":\"upstream_error\",\"param\":\"429\",\"code\":\"bad_response_status_code\"}}"
+  },
+  {
+    "provider": "Gemini",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"__Secure-1PSID\" cookie"
+  },
+  {
+    "provider": "GeminiPro",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GigaChat",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: GigaChat Valid models: ['GigaChat-2', 'GigaChat-2-Pro', 'GigaChat-2-Max', 'GigaChat', 'GigaChat-Pro', 'GigaChat-Max']"
+  },
+  {
+    "provider": "GithubCopilot",
+    "status": "error",
+    "response": null,
+    "error": "Response 404: Get token"
+  },
+  {
+    "provider": "GlhfChat",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "Grok",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "Groq",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "HailuoAI",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "HarProvider",
+    "status": "success",
+    "response": "Привет! У меня все отлично, спасибо! Как я могу помочь вам сегодня?",
+    "error": null
+  },
+  {
+    "provider": "HuggingChat",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "HuggingFace",
+    "status": "error",
+    "response": null,
+    "error": "Response 401: Invalid username or password.: {'error': 'Invalid username or password.'}"
+  },
+  {
+    "provider": "HuggingFaceAPI",
+    "status": "error",
+    "response": null,
+    "error": "Response 401: Invalid username or password.: {'error': 'Invalid username or password.'}"
+  },
+  {
+    "provider": "HuggingFaceInference",
+    "status": "error",
+    "response": null,
+    "error": "Response 401: Invalid username or password.: {'error': 'Invalid username or password.'}"
+  },
+  {
+    "provider": "HuggingFaceMedia",
+    "status": "error",
+    "response": null,
+    "error": "Response 401: Invalid username or password.: {'error': 'Invalid username or password.'}"
+  },
+  {
+    "provider": "HuggingSpace",
+    "status": "success",
+    "response": "",
+    "error": null
+  },
+  {
+    "provider": "ImageLabs",
+    "status": "success",
+    "response": "[![Привет, как дела?](https://pornlabstaskstore.s3-accelerate.amazonaws.com/f09e4805bd6b4f28af3e88a3d08ad08e.jpg)](https://pornlabstaskstore.s3-accelerate.amazonaws.com/f09e4805bd6b4f28af3e88a3d08ad08e.jpg)",
+    "error": null
+  },
+  {
+    "provider": "IterListProvider",
+    "status": "error",
+    "response": null,
+    "error": "IterListProvider is not working"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "status": "error",
+    "response": null,
+    "error": "Model 'gpt-3.5-turbo' is not supported by LMArena Beta."
+  },
+  {
+    "provider": "LambdaChat",
+    "status": "error",
+    "response": null,
+    "error": "LambdaChat: Model gpt-3.5-turbo not found"
+  },
+  {
+    "provider": "LegacyLMArena",
+    "status": "success",
+    "response": "**NETWORK ERROR DUE TO HIGH TRAFFIC. PLEASE REGENERATE OR REFRESH THIS PAGE.**",
+    "error": null
+  },
+  {
+    "provider": "Local",
+    "status": "error",
+    "response": null,
+    "error": "Local is not working"
+  },
+  {
+    "provider": "MarkItDown",
+    "status": "error",
+    "response": null,
+    "error": "MarkItDown is not working"
+  },
+  {
+    "provider": "MediaListType",
+    "status": "error",
+    "response": null,
+    "error": "type object 'list' has no attribute 'working'"
+  },
+  {
+    "provider": "Messages",
+    "status": "error",
+    "response": null,
+    "error": "type object 'list' has no attribute 'working'"
+  },
+  {
+    "provider": "MetaAI",
+    "status": "error",
+    "response": null,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "provider": "MetaAIAccount",
+    "status": "success",
+    "response": "",
+    "error": null
+  },
+  {
+    "provider": "MicrosoftDesigner",
+    "status": "error",
+    "response": null,
+    "error": "har_and_cookies dir is not readable"
+  },
+  {
+    "provider": "Microsoft_Phi_4_Multimodal",
+    "status": "error",
+    "response": null,
+    "error": "Response 500: {\"error\":null}"
+  },
+  {
+    "provider": "MiniMax",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "OIVSCodeSer0501",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: OIVSCodeSer0501 Valid models: ['gpt-4.1-mini']"
+  },
+  {
+    "provider": "OIVSCodeSer2",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: OIVSCodeSer2 Valid models: ['gpt-4o-mini']"
+  },
+  {
+    "provider": "Ollama",
+    "status": "error",
+    "response": null,
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E27B92D370>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))"
+  },
+  {
+    "provider": "OpenAIFM",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: OpenAIFM Valid models: ['friendly', 'patient_teacher', 'noir_detective', 'cowboy', 'calm', 'scientific_style', 'alloy', 'ash', 'ballad', 'coral', 'echo', 'fable', 'onyx', 'nova', 'sage', 'shimmer', 'verse']"
+  },
+  {
+    "provider": "OpenRouter",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "OpenaiAPI",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "OpenaiAccount",
+    "status": "error",
+    "response": null,
+    "error": "har_and_cookies dir is not readable"
+  },
+  {
+    "provider": "OpenaiChat",
+    "status": "error",
+    "response": null,
+    "error": "har_and_cookies dir is not readable"
+  },
+  {
+    "provider": "OpenaiTemplate",
+    "status": "error",
+    "response": null,
+    "error": "OpenaiTemplate is not working"
+  },
+  {
+    "provider": "PerplexityApi",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "PerplexityLabs",
+    "status": "error",
+    "response": null,
+    "error": "Unknown error"
+  },
+  {
+    "provider": "Pi",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "PollinationsAI",
+    "status": "success",
+    "response": "Привет! У меня всё хорошо, спасибо. Как у тебя дела?",
+    "error": null
+  },
+  {
+    "provider": "PollinationsImage",
+    "status": "success",
+    "response": "[![Привет, как дела?](https://image.pollinations.ai/prompt/%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D0%BA%D0%B0%D0%BA+%D0%B4%D0%B5%D0%BB%D0%B0??width=1024&height=1024&model=gpt-3.5-turbo&nologo=true&private=false&enhance=false&safe=false&seed=2096268778)](https://image.pollinations.ai/prompt/%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D0%BA%D0%B0%D0%BA+%D0%B4%D0%B5%D0%BB%D0%B0??width=1024&height=1024&model=gpt-3.5-turbo&nologo=true&private=false&enhance=false&safe=false&seed=2096268778)\n",
+    "error": null
+  },
+  {
+    "provider": "ProviderModelMixin",
+    "status": "error",
+    "response": null,
+    "error": "type object 'ProviderModelMixin' has no attribute 'working'"
+  },
+  {
+    "provider": "ProviderUtils",
+    "status": "error",
+    "response": null,
+    "error": "type object 'ProviderUtils' has no attribute 'working'"
+  },
+  {
+    "provider": "PuterJS",
+    "status": "error",
+    "response": null,
+    "error": "API key is required for Puter.js API"
+  },
+  {
+    "provider": "Qwen_Qwen_2_5",
+    "status": "success",
+    "response": "Привет! У меня всё хорошо, спасибо за интерес! Как у тебя дела? Чем могу помочь сегодня?",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_2_5M",
+    "status": "error",
+    "response": null,
+    "error": "'data'"
+  },
+  {
+    "provider": "Qwen_Qwen_2_5_Max",
+    "status": "success",
+    "response": "Привет! Я делаю хорошо, спасибо что спросили. Как могу помочь вам сегодня?",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_2_72B",
+    "status": "success",
+    "response": "Привет! Как искусственный интеллект, у меня нет чувств, но спасибо за интерес. Чем я могу помочь вам сегодня?",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_3",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: Qwen_Qwen_3 Valid models: {'qwen-3-8b', 'qwen-3-235b', 'qwen-3-4b', 'qwen-3-1.7b', 'qwen-3-14b', 'qwen-3-0.6b', 'qwen-3-30b-a3b', 'qwen-3-32b'}"
+  },
+  {
+    "provider": "Reka",
+    "status": "error",
+    "response": null,
+    "error": "No cookies found for space.reka.ai"
+  },
+  {
+    "provider": "Replicate",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: Replicate Valid models: ['meta/meta-llama-3-70b-instruct']"
+  },
+  {
+    "provider": "ResponseError",
+    "status": "error",
+    "response": null,
+    "error": "type object 'ResponseError' has no attribute 'working'"
+  },
+  {
+    "provider": "StabilityAI_SD35Large",
+    "status": "error",
+    "response": null,
+    "error": "GPU token limit exceeded: data: null\n"
+  },
+  {
+    "provider": "TeachAnything",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: TeachAnything Valid models: ['gemini-1.5-pro', 'gemini-1.5-flash']"
+  },
+  {
+    "provider": "ThebApi",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "Together",
+    "status": "error",
+    "response": null,
+    "error": "Together: Model gpt-3.5-turbo not found"
+  },
+  {
+    "provider": "WeWordle",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: WeWordle Valid models: ['gpt-4']"
+  },
+  {
+    "provider": "Websim",
+    "status": "error",
+    "response": null,
+    "error": "Response 500: Unexpected Server Error"
+  },
+  {
+    "provider": "WhiteRabbitNeo",
+    "status": "error",
+    "response": null,
+    "error": "Response 405: HTML content"
+  },
+  {
+    "provider": "You",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: You Valid models: ['gpt-4o-mini', 'gpt-4o', 'gpt-4o-mini', 'gpt-4-turbo', 'grok-2', 'claude-3.5-sonnet', 'claude-3.5-haiku', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku', 'llama-3.3-70b', 'llama-3.1-70b', 'llama-3', 'gemini-1-5-flash', 'gemini-1-5-pro', 'databricks-dbrx-instruct', 'command-r', 'command-r-plus', 'dolphin-2.5', 'agent', 'dall-e']"
+  },
+  {
+    "provider": "Yqcloud",
+    "status": "error",
+    "response": null,
+    "error": "Model not found: gpt-3.5-turbo in: Yqcloud Valid models: ['gpt-4']"
+  },
+  {
+    "provider": "annotations",
+    "status": "error",
+    "response": null,
+    "error": "'_Feature' object has no attribute 'working'"
+  },
+  {
+    "provider": "audio",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.Provider.audio' has no attribute 'working'"
+  },
+  {
+    "provider": "base_provider",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.Provider.base_provider' has no attribute 'working'"
+  },
+  {
+    "provider": "bing",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.Provider.needs_auth.bing' has no attribute 'working'"
+  },
+  {
+    "provider": "debug",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.debug' has no attribute 'working'"
+  },
+  {
+    "provider": "gTTS",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "har",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.Provider.har' has no attribute 'working'"
+  },
+  {
+    "provider": "helper",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.Provider.helper' has no attribute 'working'"
+  },
+  {
+    "provider": "hf_space",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.Provider.hf_space' has no attribute 'working'"
+  },
+  {
+    "provider": "local",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.Provider.local' has no attribute 'working'"
+  },
+  {
+    "provider": "needs_auth",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.Provider.needs_auth' has no attribute 'working'"
+  },
+  {
+    "provider": "openai",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.Provider.openai' has no attribute 'working'"
+  },
+  {
+    "provider": "provider",
+    "status": "error",
+    "response": null,
+    "error": "GPU token limit exceeded: data: null\n"
+  },
+  {
+    "provider": "raise_for_status",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.Provider.hf_space.raise_for_status' has no attribute 'working'"
+  },
+  {
+    "provider": "random",
+    "status": "error",
+    "response": null,
+    "error": "module 'random' has no attribute 'working'"
+  },
+  {
+    "provider": "sys",
+    "status": "error",
+    "response": null,
+    "error": "module 'sys' has no attribute 'working'"
+  },
+  {
+    "provider": "template",
+    "status": "error",
+    "response": null,
+    "error": "module 'g4f.Provider.template' has no attribute 'working'"
+  },
+  {
+    "provider": "xAI",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  }
+]

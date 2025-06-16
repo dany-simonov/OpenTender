@@ -1,0 +1,3635 @@
+[
+  {
+    "provider": "ARTA",
+    "model": "anything-xl",
+    "status": "success",
+    "response": "Generated: 1 image in 26.11s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/01977514b85a3c1db888b0c0eed7e1de/01977514b85a3c1db888b0c0eed7e1de-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/01977514b85a3c1db888b0c0eed7e1de/01977514b85a3c1db888b0c0eed7e1de-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "high-gpt4o",
+    "status": "success",
+    "response": "Generated: 1 image in 69.56s\n[![Привет, как дела?](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/0197751522c748dd81958d0db1c4473a/15479974954b4195bce9021bf94095c7.png)](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/0197751522c748dd81958d0db1c4473a/15479974954b4195bce9021bf94095c7.png)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "on-limbs-black",
+    "status": "success",
+    "response": "Generated: 1 image in 28.35s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/01977516361047a2eab9546496dc128c/01977516361047a2eab9546496dc128c-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/01977516361047a2eab9546496dc128c/01977516361047a2eab9546496dc128c-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "f-dev",
+    "status": "success",
+    "response": "Generated: 1 image in 15.40s\n[![Привет, как дела?](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/01977516a8651f13de77b1d26ac48e85/01977516a8651f13de77b1d26ac48e85-0.jpg)](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/01977516a8651f13de77b1d26ac48e85/01977516a8651f13de77b1d26ac48e85-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "flux-dev",
+    "status": "success",
+    "response": "Generated: 1 image in 15.52s\n[![Привет, как дела?](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/01977516e7eb45f72561fef7b82f5506/01977516e7eb45f72561fef7b82f5506-0.jpg)](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/01977516e7eb45f72561fef7b82f5506/01977516e7eb45f72561fef7b82f5506-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "sdxl-1.0",
+    "status": "success",
+    "response": "Generated: 1 image in 15.32s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/019775172823588e538856a4acca3987/019775172823588e538856a4acca3987-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/019775172823588e538856a4acca3987/019775172823588e538856a4acca3987-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "old-school",
+    "status": "success",
+    "response": "Generated: 1 image in 15.25s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/019775176752be5c343b0a143b9719cf/019775176752be5c343b0a143b9719cf-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/019775176752be5c343b0a143b9719cf/019775176752be5c343b0a143b9719cf-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "vincent-van-gogh",
+    "status": "success",
+    "response": "Generated: 1 image in 30.47s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/01977517a694dd193f219f586fd0f583/01977517a694dd193f219f586fd0f583-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/01977517a694dd193f219f586fd0f583/01977517a694dd193f219f586fd0f583-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "cor-epica-xl",
+    "status": "success",
+    "response": "Generated: 1 image in 28.37s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/019775182110f3b77631b0113285b31a/019775182110f3b77631b0113285b31a-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/019775182110f3b77631b0113285b31a/019775182110f3b77631b0113285b31a-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "professional",
+    "status": "success",
+    "response": "Generated: 1 image in 13.29s\n[![Привет, как дела?](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/019775189331bb68b50cda30362e9989/0.jpg)](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/019775189331bb68b50cda30362e9989/0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "cheyenne-xl",
+    "status": "success",
+    "response": "Generated: 1 image in 17.82s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/01977518cb17f8e7c8ecd5aefd02fc07/01977518cb17f8e7c8ecd5aefd02fc07-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/01977518cb17f8e7c8ecd5aefd02fc07/01977518cb17f8e7c8ecd5aefd02fc07-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "chicano",
+    "status": "success",
+    "response": "Generated: 1 image in 22.30s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/019775191413c2035c624358ff485a96/019775191413c2035c624358ff485a96-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/019775191413c2035c624358ff485a96/019775191413c2035c624358ff485a96-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "sdxl-l",
+    "status": "success",
+    "response": "Generated: 1 image in 11.10s\n[![Привет, как дела?](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/019775196ec0c66b6be09f327edd307a/0.jpg)](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/019775196ec0c66b6be09f327edd307a/0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "black-ink",
+    "status": "success",
+    "response": "Generated: 1 image in 20.18s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/019775199d9ac993d9c00559db181539/019775199d9ac993d9c00559db181539-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/019775199d9ac993d9c00559db181539/019775199d9ac993d9c00559db181539-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "juggernaut-xl",
+    "status": "success",
+    "response": "Generated: 1 image in 17.78s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/01977519f013508e324b7af300dd11ca/01977519f013508e324b7af300dd11ca-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/01977519f013508e324b7af300dd11ca/01977519f013508e324b7af300dd11ca-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "cinematic-art",
+    "status": "success",
+    "response": "Generated: 1 image in 24.15s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/0197751a39153c47ceb3bcb76e6208ac/0197751a39153c47ceb3bcb76e6208ac-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/0197751a39153c47ceb3bcb76e6208ac/0197751a39153c47ceb3bcb76e6208ac-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "dreamshaper-xl",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "fantasy-art",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "neo-traditional",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "realistic-stock-xl",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "flame-design",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "japanese-2",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "medieval",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "surrealism",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "dotwork",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "graffiti",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "revanimated",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "on-limbs-color",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "old-school-colored",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "gpt4o-ghibli",
+    "status": "success",
+    "response": "Generated: 1 image in 22.27s\n[![Привет, как дела?](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/0197751d855d63912a2cc8ee99e0254d/5a8e166b71154d90a00fe98d27483e06.png)](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/0197751d855d63912a2cc8ee99e0254d/5a8e166b71154d90a00fe98d27483e06.png)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "low-poly",
+    "status": "success",
+    "response": "Generated: 1 image in 19.72s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/0197751ddfaf0ba065a6894f79868be0/0197751ddfaf0ba065a6894f79868be0-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/0197751ddfaf0ba065a6894f79868be0/0197751ddfaf0ba065a6894f79868be0-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "gpt4o",
+    "status": "success",
+    "response": "Generated: 1 image in 34.97s\n[![Привет, как дела?](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/0197751e307ddc6c51b24ebf57cb8c3a/6c94256a257d438ca9c39cfd0bda2222.png)](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/0197751e307ddc6c51b24ebf57cb8c3a/6c94256a257d438ca9c39cfd0bda2222.png)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "gpt-image",
+    "status": "success",
+    "response": "Generated: 1 image in 46.15s\n[![Привет, как дела?](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/0197751ebc73f1128b7ffd2fbaffa488/1451136b3ee64208b80e30831406e0a8.png)](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/0197751ebc73f1128b7ffd2fbaffa488/1451136b3ee64208b80e30831406e0a8.png)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "no-style",
+    "status": "success",
+    "response": "Generated: 1 image in 28.78s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/0197751f7506b869fde2e9a50a7075b0/0197751f7506b869fde2e9a50a7075b0-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/0197751f7506b869fde2e9a50a7075b0/0197751f7506b869fde2e9a50a7075b0-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "anime",
+    "status": "error",
+    "response": null,
+    "error": "Failed to initiate image generation. Content-Type: application/json, Response: {\"detail\":[{\"type\":\"value_error\",\"loc\":[\"style\"],\"msg\":\"Value error, Style Anime not in frozenset({'Anything-xl', 'High GPT4o', 'On limbs black', 'F Dev', 'SDXL 1.0', 'Old School', 'Vincent Van Gogh', 'Cor-epica-xl', 'Professional', 'Cheyenne-xl', 'Chicano', 'SDXL L', 'Black Ink', 'Juggernaut-xl', 'Cinematic Art', 'Dreamshaper-xl', 'Fantasy Art', 'Neo-traditional', 'Realistic-stock-xl', 'Flame design', 'Japanese_2', 'Medieval', 'Surrealism', 'Dotwork', 'Graffiti', 'RevAnimated', 'On limbs color', 'Old school colored', 'GPT4o Ghibli', 'Low Poly', 'GPT4o', 'No Style', 'Anime tattoo', 'Embroidery tattoo', 'Mini tattoo', 'Realistic tattoo', 'Playground-xl', 'Watercolor', 'F Pro', 'Kawaii', 'Photographic', 'Katayama-mix-xl', 'Death metal', 'New School', 'Pony-xl', 'Anima-pencil-xl', 'Flux', 'Biomech', 'Yamers-realistic-xl', 'Trash Polka', 'Red and Black'})\"}]}"
+  },
+  {
+    "provider": "ARTA",
+    "model": "tattoo",
+    "status": "error",
+    "response": null,
+    "error": "Failed to initiate image generation. Content-Type: application/json, Response: {\"detail\":[{\"type\":\"value_error\",\"loc\":[\"style\"],\"msg\":\"Value error, Style tattoo not in frozenset({'Anything-xl', 'High GPT4o', 'On limbs black', 'F Dev', 'SDXL 1.0', 'Old School', 'Vincent Van Gogh', 'Cor-epica-xl', 'Professional', 'Cheyenne-xl', 'Chicano', 'SDXL L', 'Black Ink', 'Juggernaut-xl', 'Cinematic Art', 'Dreamshaper-xl', 'Fantasy Art', 'Neo-traditional', 'Realistic-stock-xl', 'Flame design', 'Japanese_2', 'Medieval', 'Surrealism', 'Dotwork', 'Graffiti', 'RevAnimated', 'On limbs color', 'Old school colored', 'GPT4o Ghibli', 'Low Poly', 'GPT4o', 'No Style', 'Anime tattoo', 'Embroidery tattoo', 'Mini tattoo', 'Realistic tattoo', 'Playground-xl', 'Watercolor', 'F Pro', 'Kawaii', 'Photographic', 'Katayama-mix-xl', 'Death metal', 'New School', 'Pony-xl', 'Anima-pencil-xl', 'Flux', 'Biomech', 'Yamers-realistic-xl', 'Trash Polka', 'Red and Black'})\"}]}"
+  },
+  {
+    "provider": "ARTA",
+    "model": "embroidery-tattoo",
+    "status": "success",
+    "response": "Generated: 1 image in 24.27s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/0197751fef2d9009faa533fc76143165/0197751fef2d9009faa533fc76143165-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/0197751fef2d9009faa533fc76143165/0197751fef2d9009faa533fc76143165-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "mini-tattoo",
+    "status": "success",
+    "response": "Generated: 1 image in 17.56s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/0197752052392e8f471f2e5e65c45b6f/0197752052392e8f471f2e5e65c45b6f-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/0197752052392e8f471f2e5e65c45b6f/0197752052392e8f471f2e5e65c45b6f-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "realistic-tattoo",
+    "status": "success",
+    "response": "Generated: 1 image in 58.79s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/019775209c992978e0b2bef796d701b6/019775209c992978e0b2bef796d701b6-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/019775209c992978e0b2bef796d701b6/019775209c992978e0b2bef796d701b6-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "playground-xl",
+    "status": "success",
+    "response": "Generated: 1 image in 39.38s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/019775218581d91f7b2719da464a120d/019775218581d91f7b2719da464a120d-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/019775218581d91f7b2719da464a120d/019775218581d91f7b2719da464a120d-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "Watercolor",
+    "status": "success",
+    "response": "Generated: 1 image in 44.06s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/01977522228afdf74c0aed3241628ff2/01977522228afdf74c0aed3241628ff2-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/01977522228afdf74c0aed3241628ff2/01977522228afdf74c0aed3241628ff2-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "f-pro",
+    "status": "success",
+    "response": "Generated: 1 image in 24.28s\n[![Привет, как дела?](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/01977522d2cf2b8725ff40aedd07b6c8/01977522d2cf2b8725ff40aedd07b6c8-0.jpg)](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/01977522d2cf2b8725ff40aedd07b6c8/01977522d2cf2b8725ff40aedd07b6c8-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "flux-pro",
+    "status": "success",
+    "response": "Generated: 1 image in 24.28s\n[![Привет, как дела?](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/01977523359ddc22f970a0b9679f8989/01977523359ddc22f970a0b9679f8989-0.jpg)](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/01977523359ddc22f970a0b9679f8989/01977523359ddc22f970a0b9679f8989-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "kawaii",
+    "status": "success",
+    "response": "Generated: 1 image in 28.72s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/01977523984f2b9a321a53e9bbca700b/01977523984f2b9a321a53e9bbca700b-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/01977523984f2b9a321a53e9bbca700b/01977523984f2b9a321a53e9bbca700b-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "photographic",
+    "status": "success",
+    "response": "Generated: 1 image in 13.16s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/019775240c1aa7f7560499ffda8fcf8c/019775240c1aa7f7560499ffda8fcf8c-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/019775240c1aa7f7560499ffda8fcf8c/019775240c1aa7f7560499ffda8fcf8c-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "katayama-mix-xl",
+    "status": "success",
+    "response": "Generated: 1 image in 15.46s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/01977524462bfde686945702dbc64e13/01977524462bfde686945702dbc64e13-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/01977524462bfde686945702dbc64e13/01977524462bfde686945702dbc64e13-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "death-metal",
+    "status": "success",
+    "response": "Generated: 1 image in 15.52s\n[![Привет, как дела?](https://t2i-prod.s3.us-east-1.amazonaws.com/01977524862753eadcab18f3717dfb48/01977524862753eadcab18f3717dfb48-0.jpg)](https://t2i-prod.s3.us-east-1.amazonaws.com/01977524862753eadcab18f3717dfb48/01977524862753eadcab18f3717dfb48-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "new-school",
+    "status": "success",
+    "response": "Generated: 1 image in 13.44s\n[![Привет, как дела?](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/01977524c69c972e208713e75cdbcee4/01977524c69c972e208713e75cdbcee4-0.jpg)](https://t2i-prod.s3.dualstack.us-east-1.amazonaws.com/01977524c69c972e208713e75cdbcee4/01977524c69c972e208713e75cdbcee4-0.jpg)",
+    "error": null
+  },
+  {
+    "provider": "ARTA",
+    "model": "pony-xl",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "anima-pencil-xl",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "flux",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "biomech",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "yamers-realistic-xl",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "trash-polka",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "ARTA",
+    "model": "red-and-black",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host img-gen-prod.ai-arta.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Anthropic",
+    "model": "claude-3-5-sonnet-latest",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "Anthropic",
+    "model": "claude-3-5-sonnet-20241022",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "Anthropic",
+    "model": "claude-3-5-haiku-latest",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "Anthropic",
+    "model": "claude-3-5-haiku-20241022",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "Anthropic",
+    "model": "claude-3-opus-latest",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "Anthropic",
+    "model": "claude-3-opus-20240229",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "Anthropic",
+    "model": "claude-3-sonnet-20240229",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "Anthropic",
+    "model": "claude-3-haiku-20240307",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "AsyncGeneratorProvider",
+    "model": null,
+    "status": "error",
+    "response": null,
+    "error": "Can't instantiate abstract class AsyncGeneratorProvider without an implementation for abstract method 'create_async_generator'"
+  },
+  {
+    "provider": "AsyncProvider",
+    "model": null,
+    "status": "error",
+    "response": null,
+    "error": "Can't instantiate abstract class AsyncProvider without an implementation for abstract method 'create_async'"
+  },
+  {
+    "provider": "BaseProvider",
+    "model": null,
+    "status": "error",
+    "response": null,
+    "error": "Can't instantiate abstract class BaseProvider without an implementation for abstract method 'create_function'"
+  },
+  {
+    "provider": "BingCreateImages",
+    "model": "dall-e-3",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"_U\" cookie"
+  },
+  {
+    "provider": "BlackForestLabs_Flux1Dev",
+    "model": "flux-dev",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: black-forest-labs-flux-1-dev.hf.space. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "BlackForestLabs_Flux1Dev",
+    "model": "flux",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: black-forest-labs-flux-1-dev.hf.space. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "Blackbox",
+    "model": "blackboxai",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "gpt-4.1-mini",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "gpt-4.1-nano",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "gpt-4",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "gpt-4o",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "gpt-4o-mini",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Python Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "HTML Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Builder Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Java Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "JavaScript Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "React Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Android Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Flutter Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Next.js Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "AngularJS Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Swift Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "MongoDB Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "PyTorch Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Xcode Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Azure Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Bitbucket Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "DigitalOcean Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Docker Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Electron Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Erlang Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "FastAPI Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Firebase Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Flask Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Git Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Gitlab Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Go Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Godot Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Google Cloud Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Blackbox",
+    "model": "Heroku Agent",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host www.blackbox.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "blackboxai",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "gpt-4o-mini",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "DeepSeek-V3",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "DeepSeek-R1",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Meta-Llama-3.3-70B-Instruct-Turbo",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Mistral-Small-24B-Instruct-2501",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "DeepSeek-LLM-Chat-(67B)",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Qwen-QwQ-32B-Preview",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Deepcoder 14B Preview",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "DeepHermes 3 Llama 3 8B Preview",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "DeepSeek R1 Zero",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "DeepSeek V3",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "DeepSeek V3 0324",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "DeepSeek V3 Base",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Dolphin3.0 Mistral 24B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Dolphin3.0 R1 Mistral 24B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Flash 3",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Gemini 2.0 Flash Experimental",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Gemini 2.0 Flash Thinking Experimental",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Gemini 2.0 Flash Thinking Experimental 01-21",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Gemma 2 9B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Gemma 3 12B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Gemma 3 1B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Gemma 3 27B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Gemma 3 4B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Kimi VL A3B Thinking",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "LearnLM 1.5 Pro Experimental",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Llama 3.1 8B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Llama 3.1 Nemotron 70B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Llama 3.1 Nemotron Nano 8B v1",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Llama 3.1 Nemotron Ultra 253B v1",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Llama 3.2 11B Vision Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Llama 3.2 1B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Llama 3.2 3B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Llama 3.3 70B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Llama 3.3 Nemotron Super 49B v1",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Llama 4 Maverick",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Llama 4 Scout",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Mistral 7B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Mistral Nemo",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Mistral Small 3",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Mistral Small 3.1 24B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Molmo 7B D",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Moonlight 16B A3B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "OlympicCoder 32B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "OlympicCoder 7B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Qwen2.5 72B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Qwen2.5 7B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Qwen2.5 Coder 32B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Qwen2.5 VL 32B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Qwen2.5 VL 3B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Qwen2.5 VL 72B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Qwen2.5-VL 7B Instruct",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Qwerky 72B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "QwQ 32B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "QwQ 32B Preview",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "QwQ 32B RpR v1",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "R1",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "R1 Distill Llama 70B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "R1 Distill Qwen 14B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "R1 Distill Qwen 32B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Rogue Rose 103B v0.2",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "UI-TARS 72B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Zephyr 7B",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "flux",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Python Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "HTML Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Builder Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Java Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "JavaScript Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "React Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Android Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Flutter Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Next.js Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "AngularJS Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Swift Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "MongoDB Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "PyTorch Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Xcode Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Azure Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Bitbucket Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "DigitalOcean Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Docker Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Electron Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Erlang Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "FastAPI Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Firebase Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Flask Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Git Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Gitlab Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Go Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Godot Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Google Cloud Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "BlackboxPro",
+    "model": "Heroku Agent",
+    "status": "error",
+    "response": null,
+    "error": "No valid Blackbox session found. Please log in to Blackbox AI in your browser first."
+  },
+  {
+    "provider": "Cerebras",
+    "model": "llama3.1-70b",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host inference.cerebras.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Cerebras",
+    "model": "llama3.1-8b",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host inference.cerebras.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Cerebras",
+    "model": "llama-3.3-70b",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host inference.cerebras.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Cerebras",
+    "model": "deepseek-r1-distill-llama-70b",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host inference.cerebras.ai:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Chatai",
+    "model": "gpt-4o-mini",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host chatai.aritek.app:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-a-03-2025",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host coherelabs-c4ai-command.hf.space:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-r-plus-08-2024",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host coherelabs-c4ai-command.hf.space:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-r-08-2024",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host coherelabs-c4ai-command.hf.space:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-r-plus",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host coherelabs-c4ai-command.hf.space:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-r",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host coherelabs-c4ai-command.hf.space:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-r7b-12-2024",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host coherelabs-c4ai-command.hf.space:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-r7b-arabic-02-2025",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host coherelabs-c4ai-command.hf.space:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Copilot",
+    "model": "Copilot",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: copilot.microsoft.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "Copilot",
+    "model": "Think Deeper",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: copilot.microsoft.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "CopilotAccount",
+    "model": "Copilot",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: copilot.microsoft.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "CopilotAccount",
+    "model": "Think Deeper",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: copilot.microsoft.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "CreateImagesProvider",
+    "model": null,
+    "status": "error",
+    "response": null,
+    "error": "Can't instantiate abstract class CreateImagesProvider without an implementation for abstract method 'create_function'"
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "deepseek-ai/DeepSeek-R1-0528",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "deepseek-ai/DeepSeek-Prover-V2-671B",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "Qwen/Qwen3-235B-A22B",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "Qwen/Qwen3-30B-A3B",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "Qwen/Qwen3-32B",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "Qwen/Qwen3-14B",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "microsoft/phi-4-reasoning-plus",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "microsoft/meta-llama/Llama-Guard-4-12B",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "Qwen/QwQ-32B",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "deepseek-ai/DeepSeek-V3-0324",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "google/gemma-3-27b-it",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "google/gemma-3-12b-it",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "deepseek-ai/DeepSeek-V3",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "deepseek-ai/DeepSeek-R1",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "deepseek-ai/DeepSeek-R1-Turbo",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "microsoft/phi-4",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "microsoft/WizardLM-2-8x22B",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "Qwen/Qwen2-72B-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "cognitivecomputations/dolphin-2.6-mixtral-8x7b",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "cognitivecomputations/dolphin-2.9.1-llama-3-70b",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "deepinfra/airoboros-70b",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "lizpreciatior/lzlv_70b_fp16_hf",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "microsoft/WizardLM-2-7B",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "microsoft/Phi-4-multimodal-instruct",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepInfraChat",
+    "model": "meta-llama/Llama-3.2-90B-Vision-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: api.deepinfra.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "DeepSeekAPI",
+    "model": "deepseek-v3",
+    "status": "error",
+    "response": null,
+    "error": "DeepSeekAPI is not working"
+  },
+  {
+    "provider": "DeepSeekAPI",
+    "model": "deepseek-r1",
+    "status": "error",
+    "response": null,
+    "error": "DeepSeekAPI is not working"
+  },
+  {
+    "provider": "DeepseekAI_JanusPro7b",
+    "model": "janus-pro-7b",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host huggingface.co:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "DeepseekAI_JanusPro7b",
+    "model": "janus-pro-7b-image",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host huggingface.co:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "DuckDuckGo",
+    "model": "gpt-4o-mini",
+    "status": "error",
+    "response": null,
+    "error": "DuckDuckGo is not working"
+  },
+  {
+    "provider": "DuckDuckGo",
+    "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "status": "error",
+    "response": null,
+    "error": "DuckDuckGo is not working"
+  },
+  {
+    "provider": "DuckDuckGo",
+    "model": "claude-3-haiku-20240307",
+    "status": "error",
+    "response": null,
+    "error": "DuckDuckGo is not working"
+  },
+  {
+    "provider": "DuckDuckGo",
+    "model": "o3-mini",
+    "status": "error",
+    "response": null,
+    "error": "DuckDuckGo is not working"
+  },
+  {
+    "provider": "DuckDuckGo",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501",
+    "status": "error",
+    "response": null,
+    "error": "DuckDuckGo is not working"
+  },
+  {
+    "provider": "Free2GPT",
+    "model": "gemini-1.5-pro",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host chat10.free2gpt.xyz:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "Free2GPT",
+    "model": "gemini-1.5-flash",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host chat10.free2gpt.xyz:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "FreeGpt",
+    "model": "gemini-1.5-pro",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: v.aifree.site. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "FreeGpt",
+    "model": "gemini-1.5-flash",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: u4.aifree.site. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "Gemini",
+    "model": "",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"__Secure-1PSID\" cookie"
+  },
+  {
+    "provider": "Gemini",
+    "model": "gemini-2.5-pro-exp",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"__Secure-1PSID\" cookie"
+  },
+  {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"__Secure-1PSID\" cookie"
+  },
+  {
+    "provider": "Gemini",
+    "model": "gemini-2.0-flash-thinking-exp",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"__Secure-1PSID\" cookie"
+  },
+  {
+    "provider": "Gemini",
+    "model": "gemini-deep-research",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"__Secure-1PSID\" cookie"
+  },
+  {
+    "provider": "Gemini",
+    "model": "gemini-2.0-flash",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"__Secure-1PSID\" cookie"
+  },
+  {
+    "provider": "Gemini",
+    "model": "gemini-2.0-flash-exp",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"__Secure-1PSID\" cookie"
+  },
+  {
+    "provider": "Gemini",
+    "model": "gemini-2.0-flash-thinking",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"__Secure-1PSID\" cookie"
+  },
+  {
+    "provider": "Gemini",
+    "model": "gemini-2.0-flash-thinking-with-apps",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"__Secure-1PSID\" cookie"
+  },
+  {
+    "provider": "Gemini",
+    "model": "gemini-audio",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host gemini.google.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "GigaChat",
+    "model": "GigaChat-2",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"api_key\""
+  },
+  {
+    "provider": "GigaChat",
+    "model": "GigaChat-2-Pro",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"api_key\""
+  },
+  {
+    "provider": "GigaChat",
+    "model": "GigaChat-2-Max",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"api_key\""
+  },
+  {
+    "provider": "GigaChat",
+    "model": "GigaChat",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"api_key\""
+  },
+  {
+    "provider": "GigaChat",
+    "model": "GigaChat-Pro",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"api_key\""
+  },
+  {
+    "provider": "GigaChat",
+    "model": "GigaChat-Max",
+    "status": "error",
+    "response": null,
+    "error": "Missing \"api_key\""
+  },
+  {
+    "provider": "GithubCopilot",
+    "model": "gpt-4o",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host github.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "GithubCopilot",
+    "model": "o1-mini",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host github.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "GithubCopilot",
+    "model": "o1-preview",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host github.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "GithubCopilot",
+    "model": "claude-3.5-sonnet",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host github.com:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:meta-llama/Llama-3.1-405B-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:meta-llama/Llama-3.3-70B-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:deepseek-ai/DeepSeek-V3",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:Qwen/QwQ-32B-Preview",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:huihui-ai/Llama-3.3-70B-Instruct-abliterated",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:anthracite-org/magnum-v4-12b",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:meta-llama/Llama-3.1-70B-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:meta-llama/Llama-3.1-8B-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:meta-llama/Llama-3.2-3B-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:meta-llama/Llama-3.2-90B-Vision-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:Qwen/Qwen2.5-72B-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:Qwen/Qwen2.5-Coder-32B-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:google/gemma-2-9b-it",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:google/gemma-2-27b-it",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:mistralai/Mistral-7B-Instruct-v0.3",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:Qwen/Qwen2.5-7B-Instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:upstage/SOLAR-10.7B-Instruct-v1.0",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "GlhfChat",
+    "model": "hf:nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "Grok",
+    "model": "grok-3",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "Grok",
+    "model": "grok-3-thinking",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "Grok",
+    "model": "grok-2",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "ImageLabs",
+    "model": "sdxl-turbo",
+    "status": "error",
+    "response": null,
+    "error": "Cannot connect to host editor.imagelabs.net:443 ssl:default [getaddrinfo failed]"
+  },
+  {
+    "provider": "IterListProvider",
+    "model": "gpt-3.5-turbo",
+    "status": "error",
+    "response": null,
+    "error": "No provider found"
+  },
+  {
+    "provider": "IterListProvider",
+    "model": "gpt-4",
+    "status": "error",
+    "response": null,
+    "error": "No provider found"
+  },
+  {
+    "provider": "IterListProvider",
+    "model": "gpt-4-turbo",
+    "status": "error",
+    "response": null,
+    "error": "No provider found"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "gemini-2.0-flash-001",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: beta.lmarena.ai. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "claude-3-5-sonnet-20241022",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: beta.lmarena.ai. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "grok-3-preview-02-24",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: beta.lmarena.ai. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "chatgpt-4o-latest-20250326",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: beta.lmarena.ai. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "gemini-2.5-flash-preview-05-20",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: beta.lmarena.ai. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "llama-4-maverick-03-26-experimental",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: beta.lmarena.ai. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "gpt-4.1-2025-04-14",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: beta.lmarena.ai. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "qwq-32b",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: beta.lmarena.ai. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "folsom-exp-v1.5",
+    "status": "error",
+    "response": null,
+    "error": "Failed to perform, curl: (6) Could not resolve host: beta.lmarena.ai. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "claude-3-7-sonnet-20250219",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "claude-opus-4-20250514",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "gemma-3-27b-it",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "stephen",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "claude-3-5-haiku-20241022",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "grok-3-mini-beta",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "command-a-03-2025",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "deepseek-r1-0528",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "amazon.nova-pro-v1:0",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "o3-mini",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "claude-3-7-sonnet-20250219-thinking-32k",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "o3-2025-04-16",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "o4-mini-2025-04-16",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "gemini-2.5-flash-preview-04-17",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "mistral-medium-2505",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "deepseek-v3-0324",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "claude-sonnet-4-20250514",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "X-preview",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "qwen3-30b-a3b",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "qwen-max-2025-01-25",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "qwen3-235b-a22b",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "llama-3.3-70b-instruct",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "gemini-2.5-pro-preview-05-06",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "glm-4-air-250414",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "qwen3-235b-a22b-no-thinking",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "hunyuan-large-vision",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "hunyuan-turbos-20250416",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "cobalt-exp-beta-v14",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "cobalt-exp-beta-v13",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "stephen-v2",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "gemini-2.5-pro-preview-06-05",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "stephen-vision",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "claude-sonnet-4-20250514-thinking-32k",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "claude-opus-4-20250514-thinking-16k",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "gemini-2.0-flash-preview-image-generation",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "imagen-3.0-generate-002",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "gpt-image-1",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "ideogram-v2",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "photon",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "dall-e-3",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "recraft-v3",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "anonymous-bot-0514",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "flux-kontext-pro",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LMArenaBeta",
+    "model": "imagen-4.0-generate-preview-05-20",
+    "status": "error",
+    "response": null,
+    "error": "Response 403: Cloudflare detected"
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "deepseek-llama3.3-70b",
+    "status": "success",
+    "response": "Started thinking...\n\n\nDone in 0s.\n\n\nПривет! У меня всё хорошо, спасибо. А у тебя? 😊",
+    "error": null
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "deepseek-r1",
+    "status": "success",
+    "response": "Started reasoning...\nStarted thinking...\nOkay, the user greeted me with \"Привет, как дела?\" which means \"Hello, how are you?\" in Russian.\n\nI need to respond in Russian to keep the conversation going smoothly.\n\nMy standard response to greetings is usually friendly and positive, so I'll go with something like \"Привет! У меня всё хорошо, спасибо! Как ваши дела?\" which translates to \"Hello! I'm doing well, thank you! How about you?\"\n\nI should check for any grammatical errors in the Russian sentence to make sure it's correct.\n\nAlso, since the user initiated in Russian, maintaining the same language is important for rapport.\n\nLet me confirm the translation again: \"Hello! I'm fine, thank you! How are you?\" Yes, that's accurate.\n\nAlright, that should be an appropriate and friendly responseAnalyzing the text...\n.\nDone in 5s.\n\n\nПривет! У меня всё хорошо, спасибо! Как ваши дела?Started thinking...\n 😊",
+    "error": null
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "deepseek-r1-0528",
+    "status": "error",
+    "response": null,
+    "error": "Response 429: Premium models are not available on your current plan"
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "apriel-5b-instruct",
+    "status": "success",
+    "response": "Привет! Я здесь, чтобы помочь вам. Как я могу вам помочь сегодня?\n",
+    "error": null
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "hermes-3-llama-3.1-405b-fp8",
+    "status": "success",
+    "response": "Привет! У меня все отлично, я всегда готов помочь тебе. Как твои дела? Что-нибудь интересное произошло?",
+    "error": null
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "hermes3-405b-fp8-128k",
+    "status": "error",
+    "response": null,
+    "error": "Response 400: Invalid request"
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "llama3.1-nemotron-70b-instruct",
+    "status": "success",
+    "response": "Привет!\n\n*делаю виртуальный улыбку*\n\nУ меня всё хорошо, спасибо за интерес! Как AI-ассистент, я всегда готов к работе и готов помочь с любыми вопросами или задачами, которые у вас могут возникнуть.\n\nЧто касается моего \"состояния\", я всегда в хорошем \"настроении\", поскольку:\n\n1. **Мои знания обновлены**: я имею доступ к огромному объёму информации, обновлённому до определённого момента (в моём случае, примерно до 2023 года).\n2. **Я всегда готов к диалогу**: не важно, хотите ли вы обсудить последние новости, получить рекомендации по книгам/фильмам, или нуждаетесь в помощи с творческим проектом — я здесь, чтобы помочь.\n3. **Я учусь от взаимодействий**: каждый раз, когда мы общаемся, я улучшаю свои навыки понимания и ответов, поэтому ваши вопросы и темы для обсуждения помогают мне стать лучше.\n\nТеперь, о вас! Как ваши дела? Есть ли что-то конкретное, с чем я могу вам помочь сегодня, или просто хотите поболтать?",
+    "error": null
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "lfm-40b",
+    "status": "success",
+    "response": "Привет! Я виртуальный помощник и не испытываю эмоций, но готов помочь тебе с любыми вопросами или задачами. Что я могу сделать для тебя сегодня?",
+    "error": null
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "llama3.3-70b-instruct-fp8",
+    "status": "success",
+    "response": "Привет! У меня всё хорошо, спасибо за вопрос. Я функционирую в пределах нормы и готов помочь с любыми вопросами или темами, которые ты хотел бы обсудить. У меня нет чувств или эмоций, как у людей, но я всегда рад поболтать и предоставить информацию. Как я могу помочь тебе сегодня?",
+    "error": null
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "qwen25-coder-32b-instruct",
+    "status": "success",
+    "response": "Привет! Я искусственный интеллект, так что у меня нет чувств или личной жизни, но я готов помочь тебе с любыми вопросами или задачами. Как я могу помочь?",
+    "error": null
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "deepseek-v3",
+    "status": "error",
+    "response": null,
+    "error": "Response 400: Invalid request"
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "deepseek-v3-0324",
+    "status": "error",
+    "response": null,
+    "error": "Response 429: Premium models are not available on your current plan"
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "llama-4-maverick-17b-128e-instruct-fp8",
+    "status": "error",
+    "response": null,
+    "error": "Response 429: Premium models are not available on your current plan"
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "llama-4-scout-17b-16e-instruct",
+    "status": "error",
+    "response": null,
+    "error": "Response 429: Premium models are not available on your current plan"
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "llama3.3-70b-instruct-fp8",
+    "status": "success",
+    "response": "Привет! У меня всё хорошо, спасибо за вопрос. Я функционирую в нормальном режиме и готов помочь вам с любыми вопросами или темами, которые вы хотите обсудить. Как я могу вам помочь сегодня?",
+    "error": null
+  },
+  {
+    "provider": "LambdaChat",
+    "model": "qwen3-32b-fp8",
+    "status": "success",
+    "response": "Started thinking...\n\nХорошо, пользователь приветствовал меня и спросил, как я. Нужно ответить дружелюбно и показать, что я готов помочь. Сначала отвечу на приветствие, затем предложу помощь. Следует сохранить ответ кратким и естественным. Проверю, нет ли ошибок в формулировке. Всё выглядит нормально. Отправляю ответ.\nDone in 3s.\n\n\nПривет! Я в порядке, спасибо. Как я могу вам помочь сегодня?",
+    "error": null
+  },
+  {
+    "provider": "MicrosoftDesigner",
+    "model": "dall-e-3",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "MicrosoftDesigner",
+    "model": "1024x1024",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "MicrosoftDesigner",
+    "model": "1024x1792",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "MicrosoftDesigner",
+    "model": "1792x1024",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "Microsoft_Phi_4_Multimodal",
+    "model": "phi-4-multimodal",
+    "status": "error",
+    "response": null,
+    "error": "Response 500: {\"error\":null}"
+  },
+  {
+    "provider": "MiniMax",
+    "model": "MiniMax-Text-01",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "MiniMax",
+    "model": "abab6.5s-chat",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "OIVSCodeSer0501",
+    "model": "gpt-4.1-mini",
+    "status": "error",
+    "response": null,
+    "error": "Error 401: litellm.AuthenticationError: AuthenticationError: OpenrouterException - {\"error\":{\"message\":\"No auth credentials found\",\"code\":401}}No fallback model group found for original model_group=custom/blackbox-base. Fallbacks=[{'Qwen/Qwen2.5-72B-Instruct-Turbo': ['gpt-4.1-mini']}, {'deepseek/deepseek-chat': ['gpt-4.1-mini']}]. Received Model Group=custom/blackbox-base\nAvailable Model Group Fallbacks=None\nError doing the fallback: litellm.AuthenticationError: AuthenticationError: OpenrouterException - {\"error\":{\"message\":\"No auth credentials found\",\"code\":401}}No fallback model group found for original model_group=custom/blackbox-base. Fallbacks=[{'Qwen/Qwen2.5-72B-Instruct-Turbo': ['gpt-4.1-mini']}, {'deepseek/deepseek-chat': ['gpt-4.1-mini']}]"
+  },
+  {
+    "provider": "OIVSCodeSer2",
+    "model": "gpt-4o-mini",
+    "status": "success",
+    "response": "Привет! У меня всё хорошо, спасибо! А как у тебя дела?",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "friendly",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017437_coral+coral+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "patient_teacher",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017438_coral+coral+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "noir_detective",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017439_coral+coral+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "cowboy",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017440_coral+coral+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "calm",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017441_coral+coral+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "scientific_style",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017442_coral+coral+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "alloy",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017442_alloy+alloy+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "ash",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017443_ash+ash+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "ballad",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017444_ballad+ballad+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "coral",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017445_coral+coral+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "echo",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017446_echo+echo+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "fable",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017447_fable+fable+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "onyx",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017448_onyx+onyx+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "nova",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017449_nova+nova+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "sage",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017450_sage+sage+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "shimmer",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017451_shimmer+shimmer+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenAIFM",
+    "model": "verse",
+    "status": "success",
+    "response": "<audio controls src=\"/media/1750017452_verse+verse+Привет,_как_дела_230c1d4a905e866e.wav\"></audio>",
+    "error": null
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "auto",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "gpt-4",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "gpt-4.1",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "gpt-4.5",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "gpt-4o",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "gpt-4o-mini",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "o1",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "o1-mini",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "o3-mini",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "o3-mini-high",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "o4-mini",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "o4-mini-high",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiAccount",
+    "model": "dall-e-3",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "auto",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "gpt-4",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "gpt-4.1",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "gpt-4.5",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "gpt-4o",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "gpt-4o-mini",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "o1",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "o1-mini",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "o3-mini",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "o3-mini-high",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "o4-mini",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "o4-mini-high",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "OpenaiChat",
+    "model": "dall-e-3",
+    "status": "error",
+    "response": null,
+    "error": "No .har file found"
+  },
+  {
+    "provider": "PerplexityApi",
+    "model": "llama-3-sonar-small-32k-chat",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "PerplexityApi",
+    "model": "llama-3-sonar-large-32k-online",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "PerplexityApi",
+    "model": "llama-3-sonar-large-32k-chat",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "PerplexityApi",
+    "model": "llama-3-sonar-large-32k-online",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "PerplexityApi",
+    "model": "llama-3-8b-instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "PerplexityApi",
+    "model": "llama-3-70b-instruct",
+    "status": "error",
+    "response": null,
+    "error": "Add a \"api_key\""
+  },
+  {
+    "provider": "PerplexityLabs",
+    "model": "r1-1776",
+    "status": "success",
+    "response": "<think><think>\nOkay, the user greeted me with \"Привет, как дела?\" which means \"Hi, how are you?\" in Russian. I need to respond appropriately in Russian.\n\nFirst, I should acknowledge the greeting. The standard response to \"как дела?\" is usually \"Хорошо\" or \"Всё хорошо, спасибо\". Then, it's polite to ask them back, like \"А у тебя?\".\n\nI should also consider being friendly and open. Maybe add a smiley to keep it warm. Let me put that together: \"Привет! Всё хорошо, спасибо. А у тебя как дела? 😊\"\n\nWait, does that flow naturally? Yes, I think so. It's friendly, responds to their question, and asks in return. The emoji adds a nice touch. Alright, that should work.\n</think>\n\nПривет! Всё хорошо, спасибо. А у тебя как дела? 😊",
+    "error": null
+  },
+  {
+    "provider": "PerplexityLabs",
+    "model": "sonar-pro",
+    "status": "success",
+    "response": "Привет! У меня всё отлично, спасибо, что спросил. Как у тебя дела? Чем могу помочь сегодня? 😊",
+    "error": null
+  },
+  {
+    "provider": "PerplexityLabs",
+    "model": "sonar",
+    "status": "success",
+    "response": "Привет У меня всё в порядке, спасибо за вопрос. Как у вас дела? Есть ли что-то, чем я могу вам помочь?",
+    "error": null
+  },
+  {
+    "provider": "PerplexityLabs",
+    "model": "sonar-reasoning",
+    "status": "success",
+    "response": "<think>\nХм, пользователь спросил просто \"Привет, как дела?\" и, судя по контексту, ожидает ответа. Но в проблеме указано, что нужно обрабатывать поисковые результаты и отвечать на основе них. Посмотрю на предоставленные результаты поиска.\n\nПервые три результата связаны с Т-Киллахом, который исполняет песню \"Привет, как дела?\"[1][2][3]. Возможно, пользователь имеет в виду эту песню. Однако есть и другие результаты: четвёртый — это песня на Spotify, пятый — подкаст \"Привет, как дела?\" с Мариной и Полиною[5].\n\nНужно понять, что именно спрашивает пользователь. Если этоغاز, тогда стандартный ответ \"Хорошо, и у вас?\" Но в контексте поисковых результатов явно присутствует музыкальный трек и подкаст. Возможно, пользователь неправильно сформулировал запрос или хочет получить информацию о песне или подкасте.\n\nПоскольку в результатах поиска доминируют упоминания песни Т-Киллаха, стоит ответить, что это популярная композиция, и, возможно, он имеет в виду её. Также можно отметить существование подкаста с таким же названием, но он менее популярен.\n\nВажно не предположить, что пользователь реально спрашивает о его самочувствии, так как ответ должен основываться на предоставленных данных. Поэтому правильный подход — кратко описать найденные материалы, указав на песню и подкаст как на возможные варианты ответа на фразу \"Привет, как дела?\".\n\nТакже нужно проверить, нет ли других значений фразы, но в результатах поиска только музыка и подкаст. Можно предположить, что пользователь, возможно, выпустил ошибку в запросе или хотел узнать о конкретном треке, а не общаться. Поэтому в ответе перечислить найденные ресурсы и предложить уточнить вопрос, если он имеет в виду что-то другое.\n</think>\n\nФраза \"Привет, как дела?\" в контексте предоставленных результатов чаще всего связана с **музыкальной композицией** и **подкастом**:\n\n### Музыкальная композиция\n- **«Привет, как дела?»** — песня рэпера T-killah, записанная в стиле хип-хоп. Она выпущена в 2014 году как кавер на композицию Лени Нерушенко, аранжировку создали Денис Ковальский и Jarl Nielsen[3]. Трек доступен на Spotify[4].\n- **Живые исполнения** этой песни транслировались в рамках проекта «Мурзилки на седьмом небе» Авторадио, включая прямые эфиры в студии на Останкинской телебашне[1].\n\n### Подкаст\n- **«Привет, как дела?»** — подкаст Мариины и Полины, посвящённый философии жизни минимализма. Рейтинг проекта — 4.6/5 на Apple Podcasts[5].\n\nЕсли вы имели в виду **общение**, ответ: «Хорошо, спасибо! А у вас?». Для уточнения уточните контекст запроса.\n\n\n\n> [0] [youtube.com/watch](https://www.youtube.com/watch?v=cTJNjwruEKs)\n>\n> [1] [youtube.com/watch](https://www.youtube.com/watch?v=XP4XzlHwZ7s)\n>\n> [2] [rutube.ru/video/0f0947b9e6bd3bc08f640dd37a7c5c71/](https://rutube.ru/video/0f0947b9e6bd3bc08f640dd37a7c5c71/)\n>\n> [3] [open.spotify.com/track/61kLrIPXEyOr3KRgHIdme2](https://open.spotify.com/track/61kLrIPXEyOr3KRgHIdme2)\n>\n> [4] [podcasts.apple.com/ru/podcast/привет-как-дела/id1466511926](https://podcasts.apple.com/ru/podcast/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%BA%D0%B0%D0%BA-%D0%B4%D0%B5%D0%BB%D0%B0/id1466511926)",
+    "error": null
+  },
+  {
+    "provider": "PerplexityLabs",
+    "model": "sonar-reasoning-pro",
+    "status": "success",
+    "response": "<think>\nOkay, I need to answer the query \"Привет, как дела?\" which translates to \"Hi, how are you?\" in English. The user is likely asking about the song with this title or the podcast mentioned in the search results.\n\nFirst, I'll check the search results. Result [1] is a YouTube video of T-killah performing \"Привет! Как дела?\" live on Autoradio in 2015. Result [2] is another YouTube video of the same song by T-Killah from 2022. Result [3] links to a Rutube video of the 2014 music video for T-killah's song, noting it's a cover of Lena Nerushenko's song. Result [4] is the Spotify track listing showing T-killah released the song in 2018. Result [5] mentions a podcast titled \"Привет, как дела?\" hosted by Marina and Polina, discussing life and culture.\n\nSo, there are two main things here: the song by T-killah and the podcast. The user might be asking about either, but since the query is in Russian and the song is prominent in the results, they probably want info on the song. However, I should mention both to cover all bases.\n\nFor T-killah's song, I should note it's a cover, the original artist, release years, and platforms where it's available. The live versions and music video are from different years. The podcast is a separate entity, so I'll include a brief section on that as well. Need to cite the sources appropriately, using [1], [3], [4] for the song, and [5] for the podcast.\n\nMake sure not to start with headers, summarize first, then structure into sections. Check formatting rules: use headers, lists, bold for subsections, citations after each sentence. Avoid any restricted phrases. Keep the answer in Russian since the query is in Russian.\n</think>\n\nПесня \"Привет, как дела?\" известна в исполнении рэпера T-killah (Дениса Ковальского) как кавер на композицию Лены Нерушенко[3]. Она была выпущена в нескольких версиях:  \n- **Официальный клип 2014 года** снят лейблом KLEVER LABEL при участии автора музыки Дениса Ковальского и Jarl Nielsen[3];  \n- **Концертная версия** 2015 года записана в студии Авторадио на смотровой площадке Останкинской телебашни[1];  \n- Студийные релизы 2018 года доступны на Spotify (версии длительностью 3:53 и 3:38)[4].  \n\nТекст песни сочетает непринуждённое приветствие с философскими размышлениями о взаимоотношениях, что отражено в строчках: *\"Привет, как дела? Давай проведём с тобой вдвоём этот вечер...\"*[2].  \n\nОтдельно существует **подкаст \"Привет, как дела?\"** Марины и Полины, где ведущие обсуждают философию жизни на минималках, но он не связан с музыкальной композицией[5].\n\n\n\n> [0] [youtube.com/watch](https://www.youtube.com/watch?v=cTJNjwruEKs)\n>\n> [1] [youtube.com/watch](https://www.youtube.com/watch?v=XP4XzlHwZ7s)\n>\n> [2] [rutube.ru/video/0f0947b9e6bd3bc08f640dd37a7c5c71/](https://rutube.ru/video/0f0947b9e6bd3bc08f640dd37a7c5c71/)\n>\n> [3] [open.spotify.com/track/61kLrIPXEyOr3KRgHIdme2](https://open.spotify.com/track/61kLrIPXEyOr3KRgHIdme2)\n>\n> [4] [podcasts.apple.com/ru/podcast/привет-как-дела/id1466511926](https://podcasts.apple.com/ru/podcast/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%BA%D0%B0%D0%BA-%D0%B4%D0%B5%D0%BB%D0%B0/id1466511926)",
+    "error": null
+  },
+  {
+    "provider": "Pi",
+    "model": "pi",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "ProviderUtils",
+    "model": "gpt-3.5-turbo",
+    "status": "error",
+    "response": null,
+    "error": "'ProviderUtils' object has no attribute 'working'"
+  },
+  {
+    "provider": "ProviderUtils",
+    "model": "gpt-4",
+    "status": "error",
+    "response": null,
+    "error": "'ProviderUtils' object has no attribute 'working'"
+  },
+  {
+    "provider": "ProviderUtils",
+    "model": "gpt-4-turbo",
+    "status": "error",
+    "response": null,
+    "error": "'ProviderUtils' object has no attribute 'working'"
+  },
+  {
+    "provider": "Qwen_Qwen_2_5",
+    "model": "qwen-2.5",
+    "status": "success",
+    "response": "Привет! У меня всё хорошо, спасибо за интерес! Как у тебя дела? Чем могу помочь сегодня?",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_2_5M",
+    "model": "qwen-2.5-1m",
+    "status": "error",
+    "response": null,
+    "error": "'data'"
+  },
+  {
+    "provider": "Qwen_Qwen_2_5_Max",
+    "model": "qwen-2.5-max",
+    "status": "success",
+    "response": "Привет! Я делаю хорошо, спасибо что спросил! Как могу помочь тебе сегодня?",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_2_72B",
+    "model": "qwen-2-72b",
+    "status": "success",
+    "response": "Привет! Я искусственный интеллект, у меня нет чувств, но спасибо за интерес. Как могу помочь вам сегодня?",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_3",
+    "model": "qwen-3-32b",
+    "status": "success",
+    "response": "Хорошо, пользователь приветствовал меня и спросил, как дела. Это очень распространённый способ начать разговор, и мне нужно ответить дружелюбно и открыто. Я должен поделиться своими положительными эмоциями, чтобы создать лёгкую и приятную атмосферу для дальнейшего общения. В то же время я должен сохранять естественность и не использовать излишне формальный тон. Мне также стоит проявить интерес к пользователю и спросить, как у него дела, чтобы показать, что я действительно заинтересован в его состоянии и готов помочь ему в любой ситуации. Важно сохранить простой и понятный стиль, избегая сложных выражений или профессионального жаргона, чтобы сделать общение более доступным и лёгким для восприятия. В заключение, я должен убедиться, что мой ответ соответствует нормам этикета и содержит правильную информацию, чтобы пользователь чувствовал себя комфортно и был уверен в надёжности источника.End of Thought (5.86s)\nПривет! У меня всё отлично, спасибо! 😊 Как у тебя дела? Надеюсь, ты тоже в хорошей форме. Если нужна помощь или просто хочешь поговорить — всегда на связи!",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_3",
+    "model": "qwen-3-14b",
+    "status": "success",
+    "response": "Хорошо, пользователь поприветствовал меня и спросил, как дела. Мне нужно ответить дружелюбно и показать, что я готов помочь. Начну с того, что поблагодарю за приветствие. Затем скажу, что у меня всё отлично, потому что я виртуальный помощник. Важно сохранить позитивный настрой и пригласить пользователя задавать вопросы или просить помощи. Нужно избегать сложных технических терминов и говорить простым, понятным языком. Проверю, нет ли ошибок в формулировках, и убедюсь, что ответ соответствует стандартам общения. Всё готово, можно отправлять ответ.End of Thought (3.83s)\nПривет! У меня всё отлично — я виртуальный помощник, и мне всегда приятно общаться с людьми. 😊 Как у тебя дела? Если есть вопросы или нужна помощь — не стесняйся, спрашивай!",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_3",
+    "model": "qwen-3-1.7b",
+    "status": "success",
+    "response": "Okay, the user greeted me with \"Привет, как дела?\" which is Russian for \"Hello, how are you?\" I need to respond in a friendly and helpful way.\n\nFirst, I should acknowledge their greeting. Maybe say something like \"Привет! Как дела?\" to reply in Russian. Then add a friendly message about being well and offering help.\n\nI should keep the tone warm and approachable. Maybe mention that I'm here to assist them and ask if they need anything. Make sure the response is concise but welcoming.\n\nCheck for any possible misunderstandings. Since the user might be testing my response or just wanting a simple reply, keeping it straightforward is best. Avoid any complex sentences that might confuse them.\n\nAlso, ensure the response is in the same language as the question, which is Russian. So the answer should be in Russian. Alright, that should cover it.End of Thought (2.24s)\nПривет! Как дела? Я в хорошей форме, и я здесь, чтобы помочь тебе с любым вопросом. Что у тебя на уме? 😊",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_3",
+    "model": "qwen-3-4b",
+    "status": "success",
+    "response": "Хорошо, пользователь приветствует меня и спрашивает, как у меня дела. Нужно ответить дружелюбно и вежливо. Сначала поблагодарить за приветствие. Потом рассказать, что я - виртуальный ассистент, созданный для помощи в различных задачах. Важно подчеркнуть, что я здесь, чтобы помочь. Возможно, добавить немного энергии и позитива, чтобы создать дружелюбную атмосферу. Нужно избегать сложных терминов, сохранить ответ простым и понятным. Также стоит предложить помощь в чем-то конкретном, чтобы стимулировать дальнейшее взаимодействие. Проверить, нет ли ошибок в формулировках, и убедиться, что ответ соответствует требованиям.End of Thought (7.48s)\nПривет! Я рад, что ты здорова! 😊 Я — виртуальный ассистент, и я здесь, чтобы помогать вам с различными задачами. Как я могу быть полезен? Может, у вас есть какие-то вопросы или нужно что-то сделать?",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_3",
+    "model": "qwen-3-30b-a3b",
+    "status": "success",
+    "response": "<span style=\"color: var(--color-red-500)\">'NoneType' object has no attribute 'choices'</span>",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_3",
+    "model": "qwen-3-0.6b",
+    "status": "success",
+    "response": "Okay, the user is asking how to respond to \"Prived, как дела?\" which translates to \"Hello, how are you?\" in English. Let me start by understanding their intent.\n\nFirst, I should acknowledge their greeting. It's a friendly sign-off, so responding with a cheerful message makes sense. Maybe something like \"Hello! How are you today? 😊\" keeps it light and friendly.\n\nI need to make sure the response is natural and not too formal. Since they used \"Привет\", which is Russian, I should keep the tone consistent. Also, adding an emoji like 😊 adds a personal touch.\n\nI should check if there's any additional context needed. The user hasn't provided more details, so keeping it simple is best. Avoid any potential misunderstandings by confirming the greeting clearly.\n\nFinally, ensure the response is easy to read and matches the initial greeting. That way, the user feels welcomed and understood.End of Thought (1.72s)\nПривет! Как дела? 😊",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_3",
+    "model": "qwen-3-8b",
+    "status": "success",
+    "response": "<span style=\"color: var(--color-red-500)\">'NoneType' object has no attribute 'choices'</span>",
+    "error": null
+  },
+  {
+    "provider": "Qwen_Qwen_3",
+    "model": "qwen-3-235b",
+    "status": "success",
+    "response": "Хорошо, пользователь написал \"Привет, как дела?\". Нужно ответить дружелюбно и вежливо. Сначала поздороваюсь, затем отвечу на вопрос о состоянии. Важно сохранять позитивный настрой. Возможно, стоит добавить предложение о готовности помочь, чтобы мотивировать пользователя задавать вопросы. Нужно проверить, нет ли ошибок в тексте. Убедиться, что стиль соответствует официально-дружелюбному тону. Подумать, нет ли необходимости уточнить что-то еще, но в данном случае стандартный ответ подходит.End of Thought (4.67s)\nПривет! У меня всё хорошо, спасибо за интерес! 😊 Как ты сам? Чем могу помочь?",
+    "error": null
+  },
+  {
+    "provider": "Reka",
+    "model": "gpt-3.5-turbo",
+    "status": "error",
+    "response": null,
+    "error": "No cookies found for space.reka.ai"
+  },
+  {
+    "provider": "Reka",
+    "model": "gpt-4",
+    "status": "error",
+    "response": null,
+    "error": "No cookies found for space.reka.ai"
+  },
+  {
+    "provider": "Reka",
+    "model": "gpt-4-turbo",
+    "status": "error",
+    "response": null,
+    "error": "No cookies found for space.reka.ai"
+  },
+  {
+    "provider": "Replicate",
+    "model": "meta/meta-llama-3-70b-instruct",
+    "status": "error",
+    "response": null,
+    "error": "api_key is missing"
+  },
+  {
+    "provider": "ResponseError",
+    "model": "gpt-3.5-turbo",
+    "status": "error",
+    "response": null,
+    "error": "'ResponseError' object has no attribute 'working'"
+  },
+  {
+    "provider": "ResponseError",
+    "model": "gpt-4",
+    "status": "error",
+    "response": null,
+    "error": "'ResponseError' object has no attribute 'working'"
+  },
+  {
+    "provider": "ResponseError",
+    "model": "gpt-4-turbo",
+    "status": "error",
+    "response": null,
+    "error": "'ResponseError' object has no attribute 'working'"
+  },
+  {
+    "provider": "RetryProvider",
+    "model": null,
+    "status": "error",
+    "response": null,
+    "error": "RetryProvider.__init__() missing 1 required positional argument: 'providers'"
+  },
+  {
+    "provider": "StabilityAI_SD35Large",
+    "model": "sd-3.5-large",
+    "status": "error",
+    "response": null,
+    "error": "GPU token limit exceeded: data: null\n"
+  },
+  {
+    "provider": "TeachAnything",
+    "model": "gemini-1.5-pro",
+    "status": "success",
+    "response": "Как языковая модель, у меня нет чувств или дел, но рада приветствовать вас! \n\nЧем могу вам помочь?\n",
+    "error": null
+  },
+  {
+    "provider": "TeachAnything",
+    "model": "gemini-1.5-flash",
+    "status": "success",
+    "response": "Привет! Мои дела отлично, спасибо, что спрашиваешь. Как твои дела? 😊\n",
+    "error": null
+  },
+  {
+    "provider": "WeWordle",
+    "model": "gpt-4",
+    "status": "success",
+    "response": "Привет! У меня всё отлично, спасибо! Как могу помочь тебе сегодня?",
+    "error": null
+  },
+  {
+    "provider": "Websim",
+    "model": "gemini-1.5-pro",
+    "status": "error",
+    "response": null,
+    "error": "Response 500: Unexpected Server Error"
+  },
+  {
+    "provider": "Websim",
+    "model": "gemini-1.5-flash",
+    "status": "error",
+    "response": null,
+    "error": "Response 500: Unexpected Server Error"
+  },
+  {
+    "provider": "Websim",
+    "model": "flux",
+    "status": "error",
+    "response": null,
+    "error": "Response 500: Unexpected Server Error"
+  },
+  {
+    "provider": "WhiteRabbitNeo",
+    "model": "gpt-3.5-turbo",
+    "status": "error",
+    "response": null,
+    "error": "Response 405: HTML content"
+  },
+  {
+    "provider": "WhiteRabbitNeo",
+    "model": "gpt-4",
+    "status": "error",
+    "response": null,
+    "error": "Response 405: HTML content"
+  },
+  {
+    "provider": "WhiteRabbitNeo",
+    "model": "gpt-4-turbo",
+    "status": "error",
+    "response": null,
+    "error": "Response 405: HTML content"
+  },
+  {
+    "provider": "You",
+    "model": "gpt-4o-mini",
+    "status": "error",
+    "response": null,
+    "error": "b'{\"status\":500,\"errorCode\":\"INTERNAL_ERROR\",\"message\":\"Unknown error occurred\"}'"
+  },
+  {
+    "provider": "You",
+    "model": "gpt-4o",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "gpt-4o-mini",
+    "status": "error",
+    "response": null,
+    "error": "b'{\"status\":500,\"errorCode\":\"INTERNAL_ERROR\",\"message\":\"Unknown error occurred\"}'"
+  },
+  {
+    "provider": "You",
+    "model": "gpt-4-turbo",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "grok-2",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "claude-3.5-sonnet",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "claude-3.5-haiku",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "claude-3-opus",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "claude-3-sonnet",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "claude-3-haiku",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "llama-3.3-70b",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "llama-3.1-70b",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "llama-3",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "gemini-1-5-flash",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "gemini-1-5-pro",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "databricks-dbrx-instruct",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "command-r",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "command-r-plus",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "dolphin-2.5",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "agent",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "You",
+    "model": "dall-e",
+    "status": "error",
+    "response": null,
+    "error": "Install \"nodriver\" and \"platformdirs\" package | pip install -U nodriver platformdirs"
+  },
+  {
+    "provider": "Yqcloud",
+    "model": "gpt-4",
+    "status": "success",
+    "response": "Привет! Всё отлично, спасибо, что спросил. А как у тебя?",
+    "error": null
+  },
+  {
+    "provider": "gTTS",
+    "model": "English (Australia)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "English (United Kingdom)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "English (United States)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "English (Canada)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "English (India)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "English (Ireland)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "English (South Africa)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "English (Nigeria)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "French (Canada)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "French (France)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "German (Germany)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "Mandarin (China Mainland)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "Mandarin (Taiwan)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "Portuguese (Brazil)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "Portuguese (Portugal)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "Spanish (Mexico)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "Spanish (Spain)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "gTTS",
+    "model": "Spanish (United States)",
+    "status": "error",
+    "response": null,
+    "error": "gTTS is not working"
+  },
+  {
+    "provider": "provider",
+    "model": "sd-3.5-large",
+    "status": "error",
+    "response": null,
+    "error": "GPU token limit exceeded: data: null\n"
+  }
+]
