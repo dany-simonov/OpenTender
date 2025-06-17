@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}OpenTender{% endblock %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -11,50 +14,137 @@
                 extend: {
                     colors: {
                         primary: {
-                            50: '#f0f9ff',
-                            100: '#e0f2fe',
-                            200: '#bae6fd',
-                            300: '#7dd3fc',
-                            400: '#38bdf8',
-                            500: '#0ea5e9',
-                            600: '#0284c7',
-                            700: '#0369a1',
-                            800: '#075985',
-                            900: '#0c4a6e',
-                            950: '#082f49',
+                            50: '#e6f1ff',
+                            100: '#cce3ff',
+                            200: '#99c7ff',
+                            300: '#66abff',
+                            400: '#338fff',
+                            500: '#2563eb', /* Main blue color */
+                            600: '#1d4ed8',
+                            700: '#1e40af',
+                            800: '#1e3a8a',
+                            900: '#172554',
                         }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
                     }
                 }
             }
         }
     </script>
+    <style>
+        /* Базовые стили */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Стили для навигации */
+        .nav-link {
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: white;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        /* Стили для кнопок */
+        .btn-hover-effect {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .btn-hover-effect:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body class="bg-gray-50">
-    <nav class="bg-primary-900 text-white">
+    <!-- Навигация в стиле opentender.ai -->
+    <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
+            <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <a href="{{ url_for('index') }}" class="flex-shrink-0">
-                        <img class="h-8 w-auto" src="{{ url_for('static', filename='images/logo.png') }}" alt="OpenTender">
+                    <a href="{{ url_for('index') }}" class="flex-shrink-0 flex items-center">
+                        <span class="text-primary-600 font-bold text-2xl">Open<span class="text-gray-800">Tender</span></span>
                     </a>
-                    <div class="hidden md:block">
-                        <div class="ml-10 flex items-baseline space-x-4">
-                            <a href="{{ url_for('index') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary-800">Главная</a>
-                            <a href="{{ url_for('tenders') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary-800">Тендеры</a>
-                            <a href="{{ url_for('about') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary-800">О нас</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="hidden md:block">
-                    <div class="ml-4 flex items-center md:ml-6">
+                    <div class="hidden md:ml-10 md:flex md:space-x-8">
+                        <a href="{{ url_for('index') }}" class="nav-link text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium">Главная</a>
+                        <a href="{{ url_for('tenders') }}" class="nav-link text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium">Тендеры</a>
+                        <a href="{{ url_for('chat') }}" class="nav-link text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium">
+                            <span class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                </svg>
+                                Чат с ИИ
+                            </span>
+                        </a>
                         {% if current_user.is_authenticated %}
-                            <a href="{{ url_for('logout') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary-800">Выйти</a>
-                        {% else %}
-                            <a href="{{ url_for('login') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary-800">Войти</a>
-                            <a href="{{ url_for('register') }}" class="ml-4 px-4 py-2 rounded-md text-sm font-medium bg-primary-600 hover:bg-primary-700">Регистрация</a>
+                        <a href="{{ url_for('monitoring') }}" class="nav-link text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium">Мониторинг</a>
+                        <a href="{{ url_for('analytics') }}" class="nav-link text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium">Аналитика</a>
                         {% endif %}
+                        <a href="{{ url_for('about') }}" class="nav-link text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium">О проекте</a>
                     </div>
                 </div>
+                <div class="hidden md:flex md:items-center">
+                    {% if current_user.is_authenticated %}
+                        <div class="flex items-center">
+                            <span class="text-gray-700 mr-4">{{ current_user.email }}</span>
+                            <a href="{{ url_for('logout') }}" class="btn-hover-effect text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium">Выйти</a>
+                        </div>
+                    {% else %}
+                        <a href="{{ url_for('login') }}" class="btn-hover-effect text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium">Войти</a>
+                        <a href="{{ url_for('register') }}" class="btn-hover-effect ml-4 px-4 py-2 rounded-md text-sm font-medium bg-primary-600 hover:bg-primary-700 text-white">Регистрация</a>
+                    {% endif %}
+                </div>
+                <!-- Мобильное меню -->
+                <div class="flex items-center md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Открыть меню</span>
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Мобильное меню -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="pt-2 pb-3 space-y-1">
+                <a href="{{ url_for('index') }}" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-primary-600">Главная</a>
+                <a href="{{ url_for('tenders') }}" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-primary-600">Тендеры</a>
+                <a href="{{ url_for('chat') }}" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-primary-600">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                        </svg>
+                        Чат с ИИ
+                    </div>
+                </a>
+                {% if current_user.is_authenticated %}
+                <a href="{{ url_for('monitoring') }}" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-primary-600">Мониторинг</a>
+                <a href="{{ url_for('analytics') }}" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-primary-600">Аналитика</a>
+                {% endif %}
+                <a href="{{ url_for('about') }}" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-primary-600">О проекте</a>
+                {% if current_user.is_authenticated %}
+                <a href="{{ url_for('logout') }}" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-primary-600">Выйти</a>
+                {% else %}
+                <a href="{{ url_for('login') }}" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-primary-600">Войти</a>
+                <a href="{{ url_for('register') }}" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-primary-600">Регистрация</a>
+                {% endif %}
             </div>
         </div>
     </nav>
@@ -63,21 +153,26 @@
         {% block content %}{% endblock %}
     </main>
 
-    <footer class="bg-primary-900 text-white mt-12">
-        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <!-- О компании -->
+    <!-- Футер в стиле opentender.ai -->
+    <footer class="bg-primary-800 text-white mt-12">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- О проекте -->
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">О компании</h3>
-                    <p class="text-gray-300 mb-4">OpenTender - инновационная платформа для анализа государственных закупок с использованием искусственного интеллекта.</p>
+                    <div class="mb-6">
+                        <span class="text-white font-bold text-2xl">Open<span class="text-primary-300">Tender</span></span>
+                    </div>
+                    <p class="text-gray-300 mb-6">
+                        OpenTender - инновационная ИИ-платформа для автоматизированного контроля исполнения государственных контрактов в РФ, построенная на принципах цифровой прозрачности.
+                    </p>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-gray-300 hover:text-white">
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
                             <span class="sr-only">Telegram</span>
                             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-1.97 9.341c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.223-.535.223l.19-2.72 5.56-5.023c.232-.21-.05-.327-.358-.118l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.535-.197 1.004.128.832.953z"/>
                             </svg>
                         </a>
-                        <a href="#" class="text-gray-300 hover:text-white">
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
                             <span class="sr-only">VK</span>
                             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93V15.07C2 20.67 3.33 22 8.93 22H15.07C20.67 22 22 20.67 22 15.07V8.93C22 3.33 20.67 2 15.07 2ZM18.15 16.27H16.69C16.14 16.27 15.97 15.97 14.86 14.94C13.86 14 13.47 13.74 13.24 13.74C12.93 13.74 12.79 13.88 12.79 14.26V15.69C12.79 16.04 12.67 16.27 11.73 16.27C10.25 16.27 8.65 15.32 7.5 13.59C5.57 10.84 4.96 9.22 4.96 8.75C4.96 8.54 5.08 8.34 5.5 8.34H6.96C7.35 8.34 7.5 8.5 7.63 8.81C8.25 10.27 9.53 12.09 10.08 12.09C10.33 12.09 10.45 11.95 10.45 11.5V10.27C10.4 9.12 9.77 9.03 9.77 8.68C9.77 8.5 9.92 8.34 10.14 8.34H12.5C12.81 8.34 12.95 8.5 12.95 8.81V11.14C12.95 11.57 13.09 11.74 13.14 11.74C13.37 11.74 13.75 11.57 14.45 10.95C15.45 10.07 16.04 8.95 16.04 8.95C16.04 8.95 16.19 8.68 16.5 8.68H17.96C18.37 8.68 18.5 8.84 18.37 9.19C18.19 9.79 16.41 12.09 16.41 12.09C16.41 12.09 16.27 12.34 16.27 12.5C16.27 12.67 16.41 12.84 16.55 13C17.09 13.57 17.91 14.34 18.15 14.67C18.5 15.14 18.37 15.5 18.15 16.27Z"/>
@@ -86,48 +181,48 @@
                     </div>
                 </div>
 
-                <!-- Продукт -->
+                <!-- Функции -->
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">Продукт</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-300 hover:text-white">Анализ тендеров</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white">API документация</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white">Тарифы</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white">Кейсы</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white">Блог</a></li>
+                    <h3 class="text-lg font-semibold mb-6 text-white">Функции</h3>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Мониторинг исполнения</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Анализ соответствия</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Контроль качества</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Выявление аномалий</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">API интеграция</a></li>
                     </ul>
                 </div>
 
-                <!-- Поддержка -->
+                <!-- Ресурсы -->
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">Поддержка</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-300 hover:text-white">Центр поддержки</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white">Статус системы</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white">FAQ</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white">Контакты</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white">Сообщить о проблеме</a></li>
+                    <h3 class="text-lg font-semibold mb-6 text-white">Ресурсы</h3>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Документация</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Тарифы</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Кейсы</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Блог</a></li>
                     </ul>
                 </div>
 
                 <!-- Контакты -->
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">Контакты</h3>
-                    <ul class="space-y-2">
+                    <h3 class="text-lg font-semibold mb-6 text-white">Контакты</h3>
+                    <ul class="space-y-4">
                         <li class="flex items-center">
-                            <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="h-5 w-5 mr-3 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                             </svg>
                             <span class="text-gray-300">8 (800) 123-45-67</span>
                         </li>
                         <li class="flex items-center">
-                            <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="h-5 w-5 mr-3 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                             </svg>
                             <span class="text-gray-300">support@opentender.ru</span>
                         </li>
                         <li class="flex items-center">
-                            <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="h-5 w-5 mr-3 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                             </svg>
@@ -137,22 +232,37 @@
                 </div>
             </div>
 
-            <div class="mt-12 pt-8 border-t border-primary-800">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
+            <div class="mt-12 pt-8 border-t border-primary-700">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="mb-4 md:mb-0">
                         <p class="text-gray-300">&copy; 2024 OpenTender. Все права защищены.</p>
-                        <p class="text-gray-400 text-sm mt-2">ООО "ОпенТендер", ИНН 1234567890, ОГРН 1234567890123</p>
                     </div>
-                    <div class="md:text-right">
-                        <ul class="flex flex-wrap justify-center md:justify-end space-x-6">
-                            <li><a href="{{ url_for('terms') }}" class="text-gray-300 hover:text-white text-sm">Условия использования</a></li>
-                            <li><a href="{{ url_for('privacy') }}" class="text-gray-300 hover:text-white text-sm">Политика конфиденциальности</a></li>
-                            <li><a href="#" class="text-gray-300 hover:text-white text-sm">Публичная оферта</a></li>
+                    <div>
+                        <ul class="flex flex-wrap justify-center space-x-6">
+                            <li><a href="{{ url_for('terms') }}" class="text-gray-300 hover:text-white transition-colors text-sm">Условия использования</a></li>
+                            <li><a href="{{ url_for('privacy') }}" class="text-gray-300 hover:text-white transition-colors text-sm">Политика конфиденциальности</a></li>
+                            <li><a href="#" class="text-gray-300 hover:text-white transition-colors text-sm">Публичная оферта</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- JavaScript для мобильного меню -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('[aria-controls="mobile-menu"]');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+                    mobileMenuButton.setAttribute('aria-expanded', !expanded);
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
 </body>
-</html> 
+</html>

@@ -1,0 +1,452 @@
+{% extends "base.html" %}
+
+{% block title %}OpenTender - Чат с ИИ{% endblock %}
+
+{% block content %}
+<div class="bg-white min-h-screen">
+    <!-- Заголовок страницы -->
+    <div class="max-w-5xl mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-gray-900 mb-2">Чат с ИИ</h1>
+        <p class="text-gray-600 mb-8">Задайте вопрос нашему ИИ-ассистенту для анализа тендеров и получения рекомендаций</p>
+        
+        <!-- Основной интерфейс чата -->
+        <div class="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
+            <!-- Панель выбора модели -->
+            <div class="border-b border-gray-200 p-4 bg-gray-50">
+                <div class="flex flex-col md:flex-row gap-4">
+                    <!-- Выбор категории -->
+                    <div class="w-full md:w-1/2">
+                        <label for="category" class="block text-sm font-medium text-gray-700 mb-1">Категория</label>
+                        <select id="category" class="w-full rounded-md border border-gray-300 py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+                            <option value="text">Текстовая генерация</option>
+                            <option value="code">Программирование</option>
+                            <option value="research">Глубокий анализ</option>
+                            <option value="multimodal">Мультимодальные</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Выбор модели -->
+                    <div class="w-full md:w-1/2">
+                        <label for="model" class="block text-sm font-medium text-gray-700 mb-1">Модель</label>
+                        <select id="model" class="w-full rounded-md border border-gray-300 py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+                            <option value="gemini-1.5-flash">Gemini 1.5 Flash</option>
+                            <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
+                            <option value="command-r">Cohere Command R</option>
+                            <option value="gpt-4">GPT-4</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- История сообщений -->
+            <div id="chat-messages" class="p-4 h-96 overflow-y-auto space-y-4">
+                <!-- Сообщение от ассистента -->
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 mr-3">
+                        <div class="w-8 h-8 rounded-full bg-primary-600 flex items-center justify-center text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg p-3 max-w-3xl">
+                        <p class="text-sm text-gray-800">Здравствуйте! Я ИИ-ассистент OpenTender. Чем я могу вам помочь сегодня? Вы можете задать мне вопросы о государственных закупках, анализе тендеров или попросить помощи с документацией.</p>
+                    </div>
+                </div>
+                
+                <!-- Сообщения будут добавляться здесь динамически -->
+            </div>
+            
+            <!-- Форма отправки сообщения -->
+            <div class="border-t border-gray-200 p-4 bg-gray-50">
+                <form id="chat-form" class="flex flex-col gap-3">
+                    <div class="flex-grow">
+                        <textarea id="user-input" rows="2" class="w-full rounded-md border border-gray-300 py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 resize-none" placeholder="Введите ваше сообщение..."></textarea>
+                    </div>
+                    
+                    <!-- Загрузка файлов -->
+                    <div class="flex items-center">
+                        <div class="flex-grow">
+                            <div id="file-list" class="flex flex-wrap gap-2"></div>
+                            <div id="file-upload" class="relative cursor-pointer">
+                                <input type="file" id="file-input" multiple class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" />
+                                <div class="flex items-center text-sm text-gray-600 hover:text-primary-600 transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
+                                    </svg>
+                                    <span>Прикрепить файлы</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-md transition-colors flex items-center">
+                            <span>Отправить</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Информация о моделях -->
+        <div class="mt-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">О доступных моделях</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="font-medium text-gray-900 mb-2">Текстовая генерация</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>Gemini 1.5 Flash - быстрая модель для общих запросов</li>
+                        <li>Gemini 1.5 Pro - продвинутая модель с глубоким пониманием</li>
+                        <li>Command R - оптимизирована для русского языка</li>
+                        <li>Claude 3 - серия моделей с высоким качеством ответов</li>
+                        <li>Llama 3 - открытые модели с хорошим балансом скорости и качества</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-medium text-gray-900 mb-2">Программирование</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>GPT-4 - высокая точность в написании кода</li>
+                        <li>Blackbox Agents - специализированные модели для разных языков</li>
+                        <li>CodeLlama - оптимизирована для программирования</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-medium text-gray-900 mb-2">Исследования</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>Perplexity - модели с доступом к интернету</li>
+                        <li>Sonar - модели для глубокого анализа данных</li>
+                        <li>Mixtral - мощная открытая модель для сложных задач</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-medium text-gray-900 mb-2">Мультимодальные</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>Gemini 1.5 - работа с текстом и изображениями</li>
+                        <li>Claude 3 Vision - анализ изображений и документов</li>
+                        <li>GPT-4 Vision - обработка визуальной информации</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const chatForm = document.getElementById('chat-form');
+        const userInput = document.getElementById('user-input');
+        const chatMessages = document.getElementById('chat-messages');
+        const categorySelect = document.getElementById('category');
+        const modelSelect = document.getElementById('model');
+        const fileInput = document.getElementById('file-input');
+        const fileList = document.getElementById('file-list');
+        
+        // Массив для хранения выбранных файлов
+        let selectedFiles = [];
+        
+        // Модели по категориям
+        const modelsByCategory = {
+            'text': [
+                {value: 'gemini-1.5-flash', name: 'Gemini 1.5 Flash'},
+                {value: 'gemini-1.5-pro', name: 'Gemini 1.5 Pro'},
+                {value: 'command-r', name: 'Cohere Command R'},
+                {value: 'command-r-plus', name: 'Cohere Command R+'},
+                {value: 'qwen-3-30b', name: 'Qwen 3 30B'},
+                {value: 'claude-3-opus', name: 'Claude 3 Opus'},
+                {value: 'claude-3-sonnet', name: 'Claude 3 Sonnet'},
+                {value: 'claude-3-haiku', name: 'Claude 3 Haiku'},
+                {value: 'llama-3-70b', name: 'Llama 3 70B'},
+                {value: 'llama-3-8b', name: 'Llama 3 8B'}
+            ],
+            'code': [
+                {value: 'gpt-4', name: 'GPT-4'},
+                {value: 'gpt-4-turbo', name: 'GPT-4 Turbo'},
+                {value: 'gpt-3.5-turbo', name: 'GPT-3.5 Turbo'},
+                {value: 'blackbox-python', name: 'Blackbox Python Agent'},
+                {value: 'blackbox-js', name: 'Blackbox JavaScript Agent'},
+                {value: 'blackbox-react', name: 'Blackbox React Agent'},
+                {value: 'blackbox-sql', name: 'Blackbox SQL Agent'},
+                {value: 'blackbox-java', name: 'Blackbox Java Agent'},
+                {value: 'claude-3-opus-code', name: 'Claude 3 Opus Code'},
+                {value: 'codellama-70b', name: 'CodeLlama 70B'}
+            ],
+            'research': [
+                {value: 'perplexity-r1-1776', name: 'Perplexity R1-1776'},
+                {value: 'perplexity-sonar-small', name: 'Perplexity Sonar Small'},
+                {value: 'perplexity-sonar-medium', name: 'Perplexity Sonar Medium'},
+                {value: 'deepseek-r1', name: 'DeepSeek R1'},
+                {value: 'sonar-reasoning-pro', name: 'Sonar Reasoning Pro'},
+                {value: 'hermes-3-llama-405b', name: 'Hermes 3 Llama 405B'},
+                {value: 'mixtral-8x7b', name: 'Mixtral 8x7B'},
+                {value: 'claude-3-opus-research', name: 'Claude 3 Opus Research'},
+                {value: 'gemini-1.5-pro-research', name: 'Gemini 1.5 Pro Research'},
+                {value: 'gpt-4-research', name: 'GPT-4 Research'}
+            ],
+            'multimodal': [
+                {value: 'gemini-1.5-pro', name: 'Gemini 1.5 Pro'},
+                {value: 'gemini-1.5-flash', name: 'Gemini 1.5 Flash'},
+                {value: 'claude-3-opus-vision', name: 'Claude 3 Opus Vision'},
+                {value: 'claude-3-sonnet-vision', name: 'Claude 3 Sonnet Vision'},
+                {value: 'gpt-4-vision', name: 'GPT-4 Vision'},
+                {value: 'llava-1.6', name: 'LLaVA 1.6'},
+                {value: 'cogvlm-17b', name: 'CogVLM 17B'},
+                {value: 'qwen-vl', name: 'Qwen VL'},
+                {value: 'fuyu-8b', name: 'Fuyu 8B'},
+                {value: 'bakllava-1', name: 'BakLLaVA 1'}
+            ]
+        };
+        
+        // Обновление списка моделей при изменении категории
+        categorySelect.addEventListener('change', function() {
+            const category = this.value;
+            const models = modelsByCategory[category];
+            
+            // Очистка текущего списка моделей
+            modelSelect.innerHTML = '';
+            
+            // Добавление новых опций
+            models.forEach(model => {
+                const option = document.createElement('option');
+                option.value = model.value;
+                option.textContent = model.name;
+                modelSelect.appendChild(option);
+            });
+        });
+        
+        // Обработка отправки формы
+        chatForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const message = userInput.value.trim();
+            if (!message && selectedFiles.length === 0) return;
+            
+            // Добавление сообщения пользователя
+            let userMessageContent = message;
+            
+            // Если есть файлы, добавляем информацию о них
+            if (selectedFiles.length > 0) {
+                const fileNames = selectedFiles.map(file => file.name).join(', ');
+                userMessageContent += selectedFiles.length > 0 ? 
+                    `\n\nПрикрепленные файлы: ${fileNames}` : '';
+            }
+            
+            addMessage('user', userMessageContent);
+            
+            // Очистка поля ввода
+            userInput.value = '';
+            
+            // Получение выбранной модели и категории
+            const selectedModel = modelSelect.value;
+            const selectedCategory = categorySelect.value;
+            
+            // Показываем индикатор набора текста
+            showTypingIndicator();
+            
+            // Создаем FormData для отправки файлов
+            const formData = new FormData();
+            formData.append('message', message);
+            formData.append('model', selectedModel);
+            formData.append('category', selectedCategory);
+            
+            // Добавляем файлы
+            selectedFiles.forEach((file, index) => {
+                formData.append(`file_${index}`, file);
+            });
+            
+            // Проверяем, есть ли файлы для отправки
+            if (selectedFiles.length > 0) {
+                // Отправка запроса к API с файлами через FormData
+                fetch('/api/chat', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    removeTypingIndicator();
+                    
+                    if (data.error) {
+                        addMessage('assistant', `Произошла ошибка: ${data.error}`);
+                    } else {
+                        addMessage('assistant', data.response);
+                    }
+                    
+                    // Очищаем список файлов после отправки
+                    selectedFiles = [];
+                    updateFileList();
+                })
+                .catch(error => {
+                    removeTypingIndicator();
+                    addMessage('assistant', `Произошла ошибка при обращении к серверу: ${error.message}`);
+                    console.error('Error:', error);
+                });
+            } else {
+                // Отправка запроса к API без файлов (как JSON)
+                fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        model: selectedModel,
+                        category: selectedCategory
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    removeTypingIndicator();
+                    
+                    if (data.error) {
+                        addMessage('assistant', `Произошла ошибка: ${data.error}`);
+                    } else {
+                        addMessage('assistant', data.response);
+                    }
+                })
+                .catch(error => {
+                    removeTypingIndicator();
+                    addMessage('assistant', `Произошла ошибка при обращении к серверу: ${error.message}`);
+                    console.error('Error:', error);
+                });
+            }
+        });
+        
+        // Функция добавления сообщения в чат
+        function addMessage(sender, text) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'flex items-start';
+            
+            let avatar, messageClass;
+            
+            if (sender === 'user') {
+                avatar = `
+                    <div class="flex-shrink-0 ml-3 order-2">
+                        <div class="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                `;
+                messageClass = 'bg-primary-100 rounded-lg p-3 max-w-3xl ml-auto order-1';
+                messageDiv.className += ' flex-row-reverse';
+            } else {
+                avatar = `
+                    <div class="flex-shrink-0 mr-3">
+                        <div class="w-8 h-8 rounded-full bg-primary-600 flex items-center justify-center text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                `;
+                messageClass = 'bg-gray-100 rounded-lg p-3 max-w-3xl';
+            }
+            
+            messageDiv.innerHTML = `
+                ${avatar}
+                <div class="${messageClass}">
+                    <p class="text-sm text-gray-800">${text}</p>
+                </div>
+            `;
+            
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // Показать индикатор набора текста
+        function showTypingIndicator() {
+            const typingDiv = document.createElement('div');
+            typingDiv.id = 'typing-indicator';
+            typingDiv.className = 'flex items-start';
+            
+            typingDiv.innerHTML = `
+                <div class="flex-shrink-0 mr-3">
+                    <div class="w-8 h-8 rounded-full bg-primary-600 flex items-center justify-center text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-lg p-3">
+                    <div class="flex space-x-2">
+                        <div class="w-2 h-2 rounded-full bg-gray-400 animate-bounce"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-400 animate-bounce" style="animation-delay: 0.2s"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-400 animate-bounce" style="animation-delay: 0.4s"></div>
+                    </div>
+                </div>
+            `;
+            
+            chatMessages.appendChild(typingDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // Удалить индикатор набора текста
+        function removeTypingIndicator() {
+            const typingIndicator = document.getElementById('typing-indicator');
+            if (typingIndicator) {
+                typingIndicator.remove();
+            }
+        }
+        
+        // Обработчик выбора файлов
+        fileInput.addEventListener('change', function(e) {
+            const newFiles = Array.from(e.target.files);
+            
+            // Добавляем новые файлы в массив
+            selectedFiles = [...selectedFiles, ...newFiles];
+            
+            // Обновляем отображение списка файлов
+            updateFileList();
+        });
+        
+        // Функция обновления отображения списка файлов
+        function updateFileList() {
+            fileList.innerHTML = '';
+            
+            selectedFiles.forEach((file, index) => {
+                const fileItem = document.createElement('div');
+                fileItem.className = 'bg-gray-100 rounded px-2 py-1 flex items-center text-sm';
+                
+                // Определяем иконку в зависимости от типа файла
+                let fileIcon = '';
+                if (file.type.startsWith('image/')) {
+                    fileIcon = '<svg class="h-4 w-4 mr-1 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>';
+                } else if (file.type.startsWith('text/')) {
+                    fileIcon = '<svg class="h-4 w-4 mr-1 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>';
+                } else if (file.type.startsWith('application/pdf')) {
+                    fileIcon = '<svg class="h-4 w-4 mr-1 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>';
+                } else {
+                    fileIcon = '<svg class="h-4 w-4 mr-1 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" /></svg>';
+                }
+                
+                fileItem.innerHTML = `
+                    ${fileIcon}
+                    <span class="truncate max-w-xs">${file.name}</span>
+                    <button type="button" class="ml-1 text-gray-500 hover:text-red-500" data-index="${index}">
+                        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                `;
+                
+                // Добавляем обработчик для удаления файла
+                const removeButton = fileItem.querySelector('button');
+                removeButton.addEventListener('click', function() {
+                    const fileIndex = parseInt(this.getAttribute('data-index'));
+                    selectedFiles.splice(fileIndex, 1);
+                    updateFileList();
+                });
+                
+                fileList.appendChild(fileItem);
+            });
+        }
+        
+        // Инициализация списка моделей при загрузке страницы
+        categorySelect.dispatchEvent(new Event('change'));
+    });
+</script>
+{% endblock %}

@@ -1,10 +1,10 @@
-from flask import jsonify, request, render_template, redirect, url_for, session
+from flask import jsonify, request, render_template, redirect, url_for, session, abort, flash
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime, timedelta
 import jwt
 from functools import wraps
 from extensions import db, limiter
-from models import User, Tender, TenderHistory
+from models import User, Tender, TenderHistory, Analysis, Document, Milestone, Anomaly, Alert, ContractStatus, UserRole
 from config import Config
 from flask_jwt_extended import create_access_token, jwt_required, get_jwt_identity
 from flask_login import login_user, logout_user, login_required, current_user
@@ -12,10 +12,13 @@ from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 import requests
 from urllib.parse import urlencode
+import json
+import os
 
 limiter = Limiter(key_func=get_remote_address)
 
 def token_required(f):
+    """Декоратор для проверки JWT токена"""
     @wraps(f)
     def decorated(*args, **kwargs):
         token = request.headers.get('Authorization')
@@ -29,36 +32,84 @@ def token_required(f):
         return f(current_user, *args, **kwargs)
     return decorated
 
+def role_required(roles):
+    """Декоратор для проверки роли пользователя"""
+    def decorator(f):
+        @wraps(f)
+        @login_required
+        def decorated_function(*args, **kwargs):
+            if not current_user.role or current_user.role.name not in roles:
+                abort(403)
+            return f(*args, **kwargs)
+        return decorated_function
+    return decorator
+
 def register_routes(app):
+    """
+    Регистрация маршрутов приложения
+    
+    OpenTender - инновационная ИИ-платформа для автоматизированного контроля 
+    исполнения государственных контрактов в РФ
+    """
     limiter.init_app(app)
 
     @app.route('/')
     def index():
+        """Главная страница системы"""
         return render_template('index.html')
 
     @app.route('/tenders')
     def tenders():
+        """Страница со списком тендеров"""
         return render_template('tenders.html')
+        
+    @app.route('/monitoring')
+    @login_required
+    def monitoring():
+        """Страница мониторинга исполнения контрактов"""
+        return render_template('monitoring.html')
+        
+    @app.route('/analytics')
+    @login_required
+    def analytics():
+        """Страница аналитики и отчетов"""
+        return render_template('analytics.html')
 
     @app.route('/about')
     def about():
+        """Страница о проекте"""
         return render_template('about.html')
 
     @app.route('/login')
     def login():
+        """Страница входа"""
         return render_template('login.html')
 
     @app.route('/register')
     def register():
+        """Страница регистрации"""
         return render_template('register.html')
 
     @app.route('/terms')
     def terms():
+        """Условия использования"""
         return render_template('terms.html')
 
     @app.route('/privacy')
     def privacy():
+        """Политика конфиденциальности"""
         return render_template('privacy.html')
+        
+    @app.route('/dashboard')
+    @login_required
+    def dashboard():
+        """Панель управления пользователя"""
+        return render_template('dashboard.html')
+        
+    @app.route('/chat')
+    def chat():
+        """Страница чата с ИИ"""
+        return render_template('chat.html')
 
     @app.route('/api/register', methods=['POST'])
     @limiter.limit("5 per minute")
@@ -204,220 +255,4 @@ def register_routes(app):
         
         return jsonify({'message': 'Пароль успешно изменен'})
 
-    @app.route('/api/tenders', methods=['GET'])
-    def get_tenders():
-        page = request.args.get('page', 1, type=int)
-        per_page = request.args.get('per_page', 10, type=int)
-        category = request.args.get('category')
-        status = request.args.get('status')
-        search = request.args.get('search')
-        
-        query = Tender.query
-        
-        if category:
-            query = query.filter_by(category=category)
-        if status:
-            query = query.filter_by(status=status)
-        if search:
-            query = query.filter(Tender.title.ilike(f'%{search}%'))
-            
-        pagination = query.order_by(Tender.created_at.desc()).paginate(
-            page=page, per_page=per_page, error_out=False
-        )
-        
-        return jsonify({
-            'tenders': [{
-                'id': tender.id,
-                'title': tender.title,
-                'description': tender.description,
-                'initial_price': tender.initial_price,
-                'category': tender.category,
-                'status': tender.status,
-                'submission_deadline': tender.submission_deadline.isoformat(),
-                'created_at': tender.created_at.isoformat()
-            } for tender in pagination.items],
-            'total': pagination.total,
-            'pages': pagination.pages,
-            'current_page': page
-        })
-
-    @app.route('/api/tenders/<int:tender_id>', methods=['GET'])
-    def get_tender(tender_id):
-        tender = Tender.query.get_or_404(tender_id)
-        return jsonify({
-            'id': tender.id,
-            'title': tender.title,
-            'description': tender.description,
-            'initial_price': tender.initial_price,
-            'category': tender.category,
-            'status': tender.status,
-            'submission_deadline': tender.submission_deadline.isoformat(),
-            'created_at': tender.created_at.isoformat(),
-            'history': [{
-                'field': h.field,
-                'old_value': h.old_value,
-                'new_value': h.new_value,
-                'changed_at': h.changed_at.isoformat()
-            } for h in tender.history]
-        })
-
-    @app.route('/api/dashboard', methods=['GET'])
-    @token_required
-    def get_dashboard(current_user):
-        total_tenders = Tender.query.count()
-        active_tenders = Tender.query.filter_by(status='active').count()
-        total_value = db.session.query(db.func.sum(Tender.initial_price)).scalar() or 0
-        
-        categories = db.session.query(
-            Tender.category,
-            db.func.count(Tender.id)
-        ).group_by(Tender.category).all()
-        
-        return jsonify({
-            'statistics': {
-                'total_tenders': total_tenders,
-                'active_tenders': active_tenders,
-                'total_value': total_value
-            },
-            'categories': [{
-                'name': category,
-                'count': count
-            } for category, count in categories]
-        })
-
-    @app.route('/oauth/<provider>')
-    def oauth_authorize(provider):
-        if provider not in ['vk', 'yandex', 'google']:
-            return jsonify({'error': 'Неподдерживаемый провайдер'}), 400
-
-        oauth_config = app.config['OAUTH_CREDENTIALS'][provider]
-        
-        if provider == 'vk':
-            params = {
-                'client_id': oauth_config['id'],
-                'redirect_uri': url_for('oauth_callback', provider=provider, _external=True),
-                'response_type': 'code',
-                'scope': 'email'
-            }
-            return redirect(f'https://oauth.vk.com/authorize?{urlencode(params)}')
-        
-        elif provider == 'yandex':
-            params = {
-                'client_id': oauth_config['id'],
-                'redirect_uri': url_for('oauth_callback', provider=provider, _external=True),
-                'response_type': 'code'
-            }
-            return redirect(f'https://oauth.yandex.ru/authorize?{urlencode(params)}')
-        
-        elif provider == 'google':
-            params = {
-                'client_id': oauth_config['id'],
-                'redirect_uri': url_for('oauth_callback', provider=provider, _external=True),
-                'response_type': 'code',
-                'scope': 'email profile'
-            }
-            return redirect(f'https://accounts.google.com/o/oauth2/auth?{urlencode(params)}')
-
-    @app.route('/oauth/<provider>/callback')
-    def oauth_callback(provider):
-        if provider not in ['vk', 'yandex', 'google']:
-            return jsonify({'error': 'Неподдерживаемый провайдер'}), 400
-
-        oauth_config = app.config['OAUTH_CREDENTIALS'][provider]
-        code = request.args.get('code')
-        
-        if not code:
-            return jsonify({'error': 'Код авторизации отсутствует'}), 400
-
-        if provider == 'vk':
-            # Получаем токен
-            token_url = 'https://oauth.vk.com/access_token'
-            token_params = {
-                'client_id': oauth_config['id'],
-                'client_secret': oauth_config['secret'],
-                'redirect_uri': url_for('oauth_callback', provider=provider, _external=True),
-                'code': code
-            }
-            token_response = requests.get(token_url, params=token_params)
-            token_data = token_response.json()
-            
-            if 'error' in token_data:
-                return jsonify({'error': 'Ошибка получения токена'}), 400
-            
-            # Получаем информацию о пользователе
-            user_url = 'https://api.vk.com/method/users.get'
-            user_params = {
-                'access_token': token_data['access_token'],
-                'v': '5.131',
-                'fields': 'email'
-            }
-            user_response = requests.get(user_url, params=user_params)
-            user_data = user_response.json()['response'][0]
-            
-            user = User.get_or_create_social_user(
-                social_id=str(user_data['id']),
-                social_provider='vk',
-                email=token_data.get('email', ''),
-                first_name=user_data.get('first_name', ''),
-                last_name=user_data.get('last_name', '')
-            )
-            
-        elif provider == 'yandex':
-            # Получаем токен
-            token_url = 'https://oauth.yandex.ru/token'
-            token_data = {
-                'grant_type': 'authorization_code',
-                'code': code,
-                'client_id': oauth_config['id'],
-                'client_secret': oauth_config['secret']
-            }
-            token_response = requests.post(token_url, data=token_data)
-            token_info = token_response.json()
-            
-            if 'error' in token_info:
-                return jsonify({'error': 'Ошибка получения токена'}), 400
-            
-            # Получаем информацию о пользователе
-            user_url = 'https://login.yandex.ru/info'
-            user_response = requests.get(user_url, headers={'Authorization': f'OAuth {token_info["access_token"]}'})
-            user_data = user_response.json()
-            
-            user = User.get_or_create_social_user(
-                social_id=user_data['id'],
-                social_provider='yandex',
-                email=user_data.get('default_email', ''),
-                first_name=user_data.get('first_name', ''),
-                last_name=user_data.get('last_name', '')
-            )
-            
-        elif provider == 'google':
-            # Получаем токен
-            token_url = 'https://oauth2.googleapis.com/token'
-            token_data = {
-                'client_id': oauth_config['id'],
-                'client_secret': oauth_config['secret'],
-                'redirect_uri': url_for('oauth_callback', provider=provider, _external=True),
-                'grant_type': 'authorization_code',
-                'code': code
-            }
-            token_response = requests.post(token_url, data=token_data)
-            token_info = token_response.json()
-            
-            if 'error' in token_info:
-                return jsonify({'error': 'Ошибка получения токена'}), 400
-            
-            # Получаем информацию о пользователе
-            user_url = 'https://www.googleapis.com/oauth2/v1/userinfo'
-            user_response = requests.get(user_url, headers={'Authorization': f'Bearer {token_info["access_token"]}'})
-            user_data = user_response.json()
-            
-            user = User.get_or_create_social_user(
-                social_id=user_data['id'],
-                social_provider='google',
-                email=user_data.get('email', ''),
-                first_name=user_data.get('given_name', ''),
-                last_name=user_data.get('family_name', '')
-            )
-
-        login_user(user)
-        return redirect(url_for('index')) 
+    return app  # Возвращаем настроенное приложение
